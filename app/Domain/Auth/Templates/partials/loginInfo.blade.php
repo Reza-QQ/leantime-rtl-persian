@@ -44,13 +44,21 @@
             @endif
         </li>
 
-<li class="border">
-<a href='{{ BASE_URL }}/auth/logout'>
-   {!! __("menu.sign_out") !!}
-</a>
-</li>
-@dispatchEvent('beforeUserinfoDropdownMenuClose')
-</ul>
-@dispatchEvent('beforeUserinfoMenuClose')
-</div>
-@dispatchEvent('afterUserinfoMenuClose')
+        <!-- لینک کد منبع (AGPL-3.0) -->
+        <li class="border">
+            <a href="https://github.com/Reza-QQ/leantime-rtl-persian" target="_blank" rel="noopener noreferrer">
+                <span class="fa-solid fa-code"></span> کد منبع (AGPL-3.0)
+            </a>
+        </li>
+
+        <li class="border">
+            <a href='{{ BASE_URL }}/auth/logout'>
+                {!! __("menu.sign_out") !!}
+            </a>
+        </li>
+
+        @dispatchEvent('beforeUserinfoDropdownMenuClose')
+        </ul>
+        @dispatchEvent('beforeUserinfoMenuClose')
+        </div>
+        @dispatchEvent('afterUserinfoMenuClose')

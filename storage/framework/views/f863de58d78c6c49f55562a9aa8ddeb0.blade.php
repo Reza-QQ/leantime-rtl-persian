@@ -1,1 +1,0 @@
-<script type="text/javascript">jQuery.growl({message: "{!! $message !!}", style: "{{ $style }}"});</script>

@@ -1,1 +1,0 @@
-<script type="text/javascript">jQuery.growl({message: "<?php echo $message; ?>", style: "<?php echo e($style); ?>"});</script><?php /**PATH C:\laragon\www\dentvira\public\leantime/storage\framework/views/f863de58d78c6c49f55562a9aa8ddeb0.blade.php ENDPATH**/ ?>
