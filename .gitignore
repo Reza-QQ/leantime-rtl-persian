@@ -36,7 +36,6 @@ Homestead.yaml
 .phpintel/
 .phpactor.json
 _ide_helper.php
-mix-manifest.json
 routes.json
 stan.txt
 
