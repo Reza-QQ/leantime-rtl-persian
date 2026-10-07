@@ -1,0 +1,4032 @@
+/* ============================================================
+   IRANSans Font Face
+   ------------------------------------------------------------
+   Loads all weights of the IRANSans font family from the
+   dist/fonts/ directory. Paths are relative to this file
+   (public/dist/css/rtl.css) → ../fonts/xxx/yyy.
+   ============================================================ */
+
+/* Regular (normal) */
+@font-face {
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/eot/IRANSansWeb.eot');
+    src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'),
+         url('../fonts/woff/IRANSansWeb.woff') format('woff'),
+         url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/eot/IRANSansWeb_Bold.eot');
+    src: url('../fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'),
+         url('../fonts/woff/IRANSansWeb_Bold.woff') format('woff'),
+         url('../fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* Medium (500) */
+@font-face {
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/eot/IRANSansWeb_Medium.eot');
+    src: url('../fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'),
+         url('../fonts/woff/IRANSansWeb_Medium.woff') format('woff'),
+         url('../fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* Light (300) */
+@font-face {
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/eot/IRANSansWeb_Light.eot');
+    src: url('../fonts/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'),
+         url('../fonts/woff/IRANSansWeb_Light.woff') format('woff'),
+         url('../fonts/ttf/IRANSansWeb_Light.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* UltraLight (200) */
+@font-face {
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/eot/IRANSansWeb_UltraLight.eot');
+    src: url('../fonts/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'),
+         url('../fonts/woff/IRANSansWeb_UltraLight.woff') format('woff'),
+         url('../fonts/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* ============================================================
+   Apply IRANSans as the primary font across the app
+   ============================================================ */
+
+/* Override Leantime's font variable */
+:root,
+body,
+html {
+    --primary-font-family: 'IRANSans', 'Tahoma', 'Arial', sans-serif !important;
+}
+
+body,
+input,
+select,
+textarea,
+button,
+.btn,
+label,
+.dropdown-menu,
+.tooltip,
+.popover,
+h1, h2, h3, h4, h5, h6,
+.pagetitle h1,
+.pageheader,
+.subtitle,
+.subtitle2,
+table,
+th,
+td,
+.dataTable,
+.tiptap-editor .ProseMirror,
+.tiptap-toolbar,
+.tiptap-source-textarea,
+.wiki-document,
+.ticketBox,
+.ticketBox h4,
+.projectBox {
+    font-family: 'IRANSans', 'Tahoma', 'Arial', sans-serif !important;
+}
+
+/* Keep monospace for code and code blocks */
+code,
+pre,
+.tiptap-editor .ProseMirror code,
+.tiptap-editor .ProseMirror pre,
+.tiptap-source-textarea {
+    font-family: 'SF Mono', 'Monaco', 'Consolas', 'Courier New', monospace !important;
+}
+
+/* Mermaid diagrams inherit the app font */
+.mermaid,
+.mermaid-diagram {
+    font-family: inherit !important;
+}
+
+/* KaTeX math keeps its own font */
+.katex {
+    font-family: KaTeX_Main, 'Times New Roman', serif !important;
+}
+
+/* ============================================================
+   RTL Overrides for Leantime
+   ------------------------------------------------------------
+   Loaded AFTER all main CSS files. Only overrides what's needed
+   for RTL. Organized by the source CSS file it overrides, so
+   debugging stays simple.
+
+   Usage in the layout file (after all other stylesheets):
+
+     @if (__('language.isRTL') === 'true' || app()->getLocale() === 'fa-IR')
+         <link rel="stylesheet" href="{{ BASE_URL }}/dist/css/rtl.css">
+     @endif
+   ============================================================ */
+
+
+/* ============================================================
+   Global RTL Settings & Base
+   ============================================================ */
+
+html {
+    direction: rtl;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Reset for elements that should remain LTR */
+code, pre, .tox-checklist, .tiptap-editor .ProseMirror pre, .mermaid-diagram {
+    direction: ltr;
+    text-align: left;
+}
+
+/* Numeric, date, time, email, URL inputs stay LTR for correct entry */
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="url"],
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"] {
+    direction: ltr;
+    text-align: right;
+}
+
+/* Range inputs are inherently LTR */
+input[type=range],
+.sparkline,
+.gauge,
+canvas {
+    direction: ltr;
+}
+
+/* Font Awesome icons must remain LTR within text */
+.fa, .fas, .far, .fal, .fab, .fa-solid, .fa-regular, .fa-brands {
+    direction: ltr;
+}
+
+/* Emoji direction is neutral */
+.emoji {
+    direction: ltr;
+}
+
+
+/* ============================================================
+   structure.css — layout, panels, header, main content
+   ============================================================ */
+
+/* Left panel: visually right in RTL */
+.leftpanel {
+    float: right;
+    left: auto;
+    right: 10px;
+}
+
+/* Right panel keeps its padding */
+.rightpanel {
+    padding-top: 50px;
+}
+
+.rightpanel::after {
+    clear: both;
+}
+
+/* Main content flow */
+.maincontent {
+    float: right;
+    text-align: right;
+}
+
+.maincontentinner {
+    text-align: right;
+}
+
+/* Footer */
+.footer .footer-left {
+    float: right;
+}
+
+.footer .footer-right {
+    float: left;
+}
+
+/* Header inner */
+.headerinner {
+    direction: rtl;
+}
+
+/* Pageheader — mirror the flex layout */
+.pageheader {
+    direction: rtl;
+}
+
+.pageheader .pagetitle {
+    text-align: right;
+}
+
+.pageheader-right {
+    margin-left: 0;
+    margin-right: auto;
+    flex-direction: row-reverse;
+}
+
+.pageheader-meta {
+    text-align: right;
+}
+
+/* Header CTA (e.g., "تنها انجامش ندهید") — float to LEFT in RTL */
+.pageheader .headerCTA {
+    float: left;
+    text-align: left;
+}
+
+.pageheader-right .headerCTA {
+    float: none;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+
+/* ============================================================
+   app.3.10.0.min.css — Utility Classes
+   ============================================================ */
+
+.tw-float-right { float: left !important; }
+.tw-float-left { float: right !important; }
+
+.tw-text-left { text-align: right !important; }
+.tw-text-right { text-align: left !important; }
+
+.tw-ml-0 { margin-right: 0 !important; margin-left: auto !important; }
+.tw-ml-\[10px\] { margin-right: 10px !important; margin-left: auto !important; }
+.tw-ml-m { margin-right: 15px !important; margin-left: auto !important; }
+.tw-ml-sm { margin-right: 10px !important; margin-left: auto !important; }
+
+.tw-mr-3 { margin-left: .75rem !important; margin-right: auto !important; }
+.tw-mr-\[10px\] { margin-left: 10px !important; margin-right: auto !important; }
+.tw-mr-\[5px\] { margin-left: 5px !important; margin-right: auto !important; }
+.tw-mr-m { margin-left: 15px !important; margin-right: auto !important; }
+.tw-mr-sm { margin-left: 10px !important; margin-right: auto !important; }
+.tw-mr-xs { margin-left: 5px !important; margin-right: auto !important; }
+
+.tw-pl-1 { padding-right: .25rem !important; padding-left: 0 !important; }
+.tw-pl-2 { padding-right: .5rem !important; padding-left: 0 !important; }
+.tw-pl-3 { padding-right: .75rem !important; padding-left: 0 !important; }
+.tw-pl-5 { padding-right: 1.25rem !important; padding-left: 0 !important; }
+.tw-pr-xs { padding-left: 5px !important; padding-right: 0 !important; }
+
+
+/* ============================================================
+   nav.css — top navigation, sidebar menu, headmenu
+   ============================================================ */
+
+.logo {
+    float: right;
+    margin-left: 0;
+    margin-right: 55px;
+}
+
+.logo a {
+    background-position: right center;
+}
+
+a.barmenu {
+    left: auto;
+    right: 0;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.headmenu > li {
+    float: right;
+}
+
+.headmenu > li.right {
+    float: left;
+}
+
+.headmenu > li > a .headmenu-label {
+    text-align: right;
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.headmenu > li > a .count {
+    right: auto;
+    left: 10px;
+}
+
+.headmenu .dropdown-menu {
+    text-align: right;
+}
+
+.headmenu .dropdown-menu a span {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.headmenu .dropdown-menu::after {
+    left: auto;
+    right: 45px;
+}
+
+.headmenu .dropdown-menu.pull-right::after {
+    right: auto;
+    left: 15px;
+}
+
+.leftmenu .projectselector::after {
+    left: auto;
+    right: -9px;
+    transform: rotate(90deg);
+}
+
+.userloggedinfo {
+    float: left;
+}
+
+.userloggedinfo img {
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.userloggedinfo .userinfo {
+    float: right;
+}
+
+.userloggedinfo .userinfo a.profileHandler {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.userloggedinfo .dropdown-menu {
+    right: auto;
+    left: 7px;
+}
+
+.userloggedinfo .dropdown-menu::after {
+    right: auto;
+    left: 28px;
+}
+
+.userloggedinfo ul li a span,
+.appsDropdown ul li a span {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.notificationDropdown .dropdown-menu {
+    right: auto;
+    left: -15px;
+}
+
+.notificationDropdown .dropdown-menu::after {
+    right: auto;
+    left: 30px;
+}
+
+.notificationDropdown span.notificationCounter {
+    right: auto;
+    left: 5px;
+}
+
+.notificationDropdown .dropdown-menu li.new {
+    border-left: none;
+    border-right: 5px solid var(--primary-color);
+}
+
+.notificationDropdown .dropdown-menu li .notificationProfileImage img {
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.appsDropdown .dropdown-menu {
+    right: auto;
+    left: -10px;
+}
+
+.appsDropdown .dropdown-menu::after {
+    right: auto;
+    left: 30px;
+}
+
+.leftmenu .nav-tabs.nav-stacked a span {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.leftmenu .nav-tabs.nav-stacked > li.dropdown ul.submenu li a {
+    margin-left: 0;
+    margin-right: 15px;
+    padding-left: 0;
+    padding-right: 14px;
+    border-left: none;
+    border-right: 0 dotted var(--main-border-color);
+}
+
+.leftmenu .nav-tabs.nav-stacked > li.dropdown li.submenuToggle a {
+    padding: 10px 10px 10px 5px;
+}
+
+.leftmenu .nav-tabs.nav-stacked > li.dropdown li.title a {
+    padding: 15px 25px 5px 5px;
+}
+
+.nav-tabs li .submenuCaret {
+    float: left;
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.fixedMenuPoint {
+    left: auto;
+    right: 10px;
+}
+
+.headmenu .projectselector .head .searchBar {
+    float: left;
+}
+
+.projectselector ul.selectorList li.projectLineItem a {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.projectselector ul.selectorList li.projectLineItem.hasSubtitle a .projectName {
+    float: right;
+}
+
+.projectselector ul.selectorList li.projectLineItem .projectAvatar {
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.projectselector ul.selectorList li .fas {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.projectselector ul.selectorList.projectList li.projectLineItem .toggler {
+    float: right;
+    margin-left: 0;
+    margin-right: 9px;
+}
+
+.projectselector ul.selectorList.projectList li.projectLineItem .favoriteIcon {
+    float: left;
+    padding-left: 0;
+    padding-right: 10px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.projectselector ul.selectorList li.nav-header {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.projectselector ul.selectorList li.projectLineItem ul.projectGroup {
+    border-left: none;
+    border-right: 1px dotted var(--grey);
+}
+
+.projectselector ul.selectorList li.projectLineItem ul.projectGroup[class*="level-"] {
+    margin-left: 0;
+    margin-right: 13px;
+}
+
+.projectselector ul.selectorList li.projectLineItem ul.projectGroup.level-0,
+.projectselector ul.selectorList li.projectLineItem ul.projectGroup.level-1 {
+    margin-left: 0;
+    margin-right: 18px;
+}
+
+.projectselector ul.selectorList.projectList li.projectLineItem .favoriteIcon {
+    padding-right: 10px;
+}
+
+.mainwrapper.menuclosed .primaryContent {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.mainwrapper.menuclosed .headmenu {
+    margin-left: 0;
+    margin-right: 98px;
+}
+
+.mainwrapper.menuclosed .leftmenu .projectselector {
+    left: auto;
+    right: 73px;
+}
+
+.mainwrapper.menuopen .logo {
+    float: right;
+}
+
+.mainwrapper.menuopen .leftpanel {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.headerinner .bigProjectSelector > .fa-caret-down {
+    float: left;
+    padding-top: 17px;
+}
+
+/* Project Avatar Vertical Centering Fix */
+.headerinner .bigProjectSelector .projectAvatar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 1;
+    overflow: hidden;
+}
+
+.headerinner .bigProjectSelector .projectAvatar img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    max-height: 30px;
+    max-width: 30px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.headerinner .bigProjectSelector .projectAvatar .fa {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.onboarding-checklist {
+    left: auto;
+    right: 0;
+    padding: 0 20px 20px 0;
+}
+
+.showMenuIndicator::after {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.new-indicator {
+    right: auto;
+    left: 2px;
+}
+
+
+/* ============================================================
+   dropdowns.css — dropdown menus, ticket dropdowns, accordions
+   ============================================================ */
+
+/* Inline dropdown containers */
+.inlineDropDownContainer {
+    float: left;
+    position: relative;
+    display: inline-block;
+}
+
+.inlineDropDownContainer .ticketDropDown {
+    float: left;
+    margin-right: 0;
+    margin-left: -5px;
+}
+
+.inlineDropDownContainer .dropdown-menu {
+    right: auto;
+    left: 0;
+    text-align: right;
+}
+
+.inlineDropDownContainer .dropdown-menu::after {
+    left: auto;
+    right: 10px;
+}
+
+.inlineDropDownContainer.dropright .dropdown-menu {
+    right: auto;
+    left: -5px;
+}
+
+.inlineDropDownContainer.dropright .dropdown-menu::after {
+    left: auto;
+    right: 10px;
+}
+
+.inlineDropDownContainer > a:last-child {
+    margin-right: 0;
+    margin-left: -5px;
+}
+
+.inlineDropDownContainer > a {
+    color: #aaa;
+}
+
+.inlineDropDownContainerLeft {
+    float: right;
+    display: inline-block;
+}
+
+/* Ticket dropdown arrow position */
+.ticketDropdown ul::after {
+    left: auto;
+    right: 10px;
+}
+
+.ticketDropdown .dropdown-menu {
+    right: auto;
+    left: 0;
+    text-align: right;
+}
+
+.ticketDropdown.userDropdown ul {
+    right: auto;
+    left: 6px;
+}
+
+.dropRight ul,
+.ticketDropdown.userDropdown.dropRight ul {
+    right: 0;
+    left: auto;
+}
+
+.dropdown-menu.pull-right::after {
+    right: auto;
+    left: 10px;
+}
+
+.tabbedwidget .dropdown-menu.pull-left,
+.mainwrapper .dropdown-menu.pull-left {
+    right: 10px;
+    left: auto;
+}
+
+.viewDropDown .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+
+.btn-group .btn.titleIconPicker {
+    background: transparent;
+}
+
+.headerEditDropdown {
+    float: left;
+    padding-top: 20px;
+}
+
+.headerEditDropdown .caret {
+    border-top-color: var(--main-action-color);
+}
+
+.editCanvasDropdown {
+    left: 0;
+    right: auto;
+}
+
+.pagetitle .header-title-dropdown {
+    flex-direction: row-reverse;
+}
+
+.pagetitle .header-title-dropdown .fa {
+    padding-left: 0;
+    padding-right: 4px;
+}
+
+.dropdown-menu span.radio input[type="radio"] {
+    float: right;
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.maincontent .accordionTitle i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+
+/* ============================================================
+   tables.css — data tables and lists
+   ============================================================ */
+
+.table thead th.right,
+.table tr td.right {
+    text-align: left;
+}
+
+.table th.centeralign,
+.table td.centeralign {
+    text-align: center;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border-left: 0;
+    border-right: 0;
+}
+
+.maincontentinner .table thead tr:first-child th:first-child,
+.maincontentinner .dataTable thead tr:first-child th:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: var(--box-radius-small, 8px);
+}
+
+.maincontentinner .table thead tr:first-child th:last-child,
+.maincontentinner .dataTable thead tr:first-child th:last-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: var(--box-radius-small, 8px);
+}
+
+.dataTables_filter {
+    right: auto;
+    left: 10px;
+}
+
+.dataTables_filter input {
+    margin: 0 10px 0 0;
+}
+
+.dataTables_paginate {
+    right: auto;
+    left: 10px;
+}
+
+.maincontentinner .dataTables_wrapper .dataTables_info {
+    left: auto;
+    right: 0;
+}
+
+.maincontentinner .dataTables_wrapper .dataTables_length {
+    left: auto;
+    right: 50%;
+    margin-left: 0;
+    margin-right: -65px;
+}
+
+.maincontentinner .dataTables_wrapper .dataTables_paginate {
+    right: auto;
+    left: 0;
+}
+
+.table td.dropdown-cell .dropdown > a i {
+    float: left;
+}
+
+.maincontentinner .dt-buttons .dt-button-collection button {
+    text-align: right;
+}
+
+.maincontentinner .dt-buttons .dt-button-collection button:before {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.maincontentinner .table tfoot td,
+.maincontentinner .dataTable tfoot td {
+    text-align: right;
+}
+
+
+/* ============================================================
+   forms.css — form controls, buttons, inputs
+   ============================================================ */
+
+input,
+select,
+textarea {
+    direction: rtl;
+    text-align: right;
+}
+
+input::placeholder,
+textarea::placeholder {
+    text-align: right;
+}
+
+.btn .caret {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.chosen-container-single .chosen-single div b:after {
+    content: "⌄";
+}
+
+.chosen-container-multi .chosen-choices li.search-choice {
+    padding: 6px 5px 6px 20px;
+    margin: 3px 0 3px 5px;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+    right: auto;
+    left: 3px;
+}
+
+.chosen-container-multi .chosen-choices {
+    padding: 3px 8px 3px 5px;
+}
+
+body div.tagsinput input {
+    text-align: right;
+}
+
+body div.tagsinput span.tag a {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+.ss-main .ss-multi-selected .ss-add {
+    margin: 4px 5px 0 0;
+}
+
+input[type="checkbox"].toggle:after {
+    left: auto;
+    right: 4px;
+}
+
+input[type="checkbox"].toggle:checked:after {
+    transform: translatex(-20px);
+}
+
+.date-picker-form-control .reset-button {
+    right: auto;
+    left: 5px;
+}
+
+.profileBox {
+    text-align: center;
+}
+
+.userBox input[type=checkbox] {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.simpleButtons.right {
+    text-align: left;
+    float: left;
+}
+
+.simpleButtons.left {
+    text-align: right;
+    float: right;
+}
+
+input[type=range] {
+    direction: ltr;
+}
+
+.selectable {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.color-circle {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.form-group .control-label {
+    text-align: right;
+}
+
+.stdform label {
+    float: right;
+    text-align: right;
+    padding: 5px 0 0 20px;
+}
+
+.stdform .formwrapper {
+    margin-left: 0;
+    margin-right: 220px;
+}
+
+.stdform small.desc {
+    margin: 5px 220px 0 0;
+}
+
+.stdform2 label {
+    text-align: right;
+    padding: 15px 15px 0 0;
+}
+
+.stdform2 span.field,
+.stdform2 div.field {
+    margin-left: 0;
+    margin-right: 220px;
+    border-left: 0;
+    border-right: 1px solid #ddd;
+}
+
+.stdform2 .stdformbutton {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.dualselect {
+    margin-left: 0;
+    margin-right: 220px;
+}
+
+form label {
+    text-align: right;
+}
+
+.weekday-checkbox {
+    margin-right: 0 !important;
+    margin-left: 4px !important;
+}
+
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: 0;
+    margin-right: -1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu),
+.input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n+3) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+body div.tagsinput input,
+body div.clearForm input {
+    padding-left: 0;
+    padding-right: 7px;
+}
+
+input.input-line {
+    margin-left: 0;
+    margin-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Bootstrap 2 Grid RTL Fixes (for .span* inside forms) */
+.row-fluid [class*="span"],
+.stdform [class*="span"],
+.widgetcontent [class*="span"] {
+    float: right;
+}
+
+/* Widgetcontent form layout fix */
+.widgetcontent .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.widgetcontent .form-group .control-label {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+    text-align: right;
+    padding-right: 0;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+.widgetcontent .form-group .span6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    float: none;
+}
+
+.widgetcontent .form-group input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+    .widgetcontent .form-group {
+        display: block;
+    }
+    .widgetcontent .form-group .control-label,
+    .widgetcontent .form-group .span6 {
+        flex: none;
+        max-width: 100%;
+        width: 100%;
+        padding: 0;
+        text-align: right;
+    }
+    .widgetcontent .form-group .control-label {
+        margin-bottom: 5px;
+    }
+}
+
+/* ============================================================
+   calendar.css — FullCalendar RTL adjustments
+   ============================================================ */
+
+.fc {
+    direction: rtl;
+    text-align: right;
+}
+
+.fc .fc-toolbar-title {
+    text-align: right;
+}
+
+.fc .fc-button-group {
+    flex-direction: row-reverse;
+}
+
+.fc .fc-col-header-cell-cushion {
+    text-align: center;
+}
+
+.fc-timegrid-event .fc-event-main,
+.fc-daygrid-event .fc-event-main {
+    text-align: right;
+}
+
+.fc-daygrid-day-events {
+    direction: rtl;
+}
+
+
+/* ============================================================
+   kanban.css — kanban board and swimlanes
+   ============================================================ */
+
+.kanban-column-headers.groupby-active {
+    margin-left: 0;
+    margin-right: 158px;
+}
+
+.ticketBox {
+    border-left: none;
+    border-right: 3px solid color-mix(in srgb, var(--primary-font-color) 22%, transparent);
+    padding: 10px 10px 10px 12px;
+}
+
+.ticketBox:hover {
+    border-right-color: color-mix(in srgb, var(--primary-font-color) 20%, transparent);
+    border-left: none;
+}
+
+.ticketBox .ticketBox,
+.projectBox .ticketBox {
+    border-left: none;
+    border-right: 3px solid var(--main-border-color);
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+body .maincontent .priority-border-1,
+body .maincontent .commentStatus-red {
+    border-left: none;
+    border-right: 3px solid var(--dark-red);
+}
+
+body .maincontent .priority-border-2 {
+    border-left: none;
+    border-right: 3px solid var(--red);
+}
+
+body .maincontent .priority-border-3,
+body .maincontent .commentStatus-yellow {
+    border-left: none;
+    border-right: 3px solid var(--yellow);
+}
+
+body .maincontent .priority-border-4,
+body .maincontent .commentStatus-green {
+    border-left: none;
+    border-right: 3px solid var(--green);
+}
+
+body .maincontent .priority-border-5 {
+    border-left: none;
+    border-right: 3px solid var(--dark-grey);
+}
+
+.kanban-swimlane-sidebar {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.kanban-swimlane-content {
+    border-radius: var(--box-radius) 0 0 var(--box-radius);
+}
+
+.kanban-sidebar-tooltip {
+    left: auto;
+    right: 100%;
+    border-left: 1px solid var(--main-border-color);
+    border-right: none;
+    border-radius: var(--box-radius) 0 0 var(--box-radius);
+    transform: translateX(10px);
+}
+
+.kanban-swimlane-sidebar:hover .kanban-sidebar-tooltip,
+.kanban-swimlane-sidebar:focus-visible .kanban-sidebar-tooltip {
+    transform: translateX(0);
+}
+
+.kanban-swimlane-content.collapsed .ticketBox {
+    padding: 6px 8px 6px 36px;
+}
+
+.kanban-swimlane-content.collapsed .ticketBox .userDropdown {
+    right: auto;
+    left: 8px;
+}
+
+.compact-ticket {
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    padding: 4px 8px;
+}
+
+.compact-ticket.priority-border-1 { border-right-color: var(--dark-red); }
+.compact-ticket.priority-border-2 { border-right-color: var(--red); }
+.compact-ticket.priority-border-3 { border-right-color: var(--yellow); }
+.compact-ticket.priority-border-4 { border-right-color: var(--green); }
+.compact-ticket.priority-border-5 { border-right-color: var(--grey); }
+
+.widgettitle span {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.column:first-child {
+    padding-left: 6px;
+    padding-right: 0;
+}
+
+.column:last-child {
+    padding-right: 6px;
+    padding-left: 0;
+}
+
+
+/* ============================================================
+   wiki.css — docs layout panels
+   ============================================================ */
+
+.wiki-contents-panel {
+    border-right: none;
+    border-left: 1px solid var(--main-border-color);
+}
+
+.wiki-contents-panel.collapsed {
+    border-right: none;
+    border-left: none;
+}
+
+.wiki-properties-panel {
+    border-left: none;
+    border-right: 1px solid var(--main-border-color);
+    padding: 20px 20px 20px 24px;
+}
+
+.wiki-properties-panel.collapsed {
+    border-left: none;
+    border-right: none;
+}
+
+.wiki-panel-toggle.left {
+    left: auto;
+    right: 0;
+    border-radius: 8px 0 0 8px;
+    border-left: 1px solid var(--main-border-color);
+    border-right: none;
+}
+
+.wiki-panel-toggle.right {
+    right: auto;
+    left: 0;
+    border-radius: 0 8px 8px 0;
+    border-right: 1px solid var(--main-border-color);
+    border-left: none;
+}
+
+.wiki-document {
+    text-align: right;
+}
+
+.wiki-document blockquote {
+    border-left: none;
+    border-right: 3px solid var(--accent1);
+    border-radius: 16px 4px 4px 16px;
+}
+
+.wiki-tree ul {
+    padding: 0 16px 0 0;
+}
+
+.wiki-tree-link {
+    text-align: right;
+}
+
+.wiki-document-wrapper:not(.editing):hover::after {
+    right: auto;
+    left: 8px;
+}
+
+.wiki-edit-indicator {
+    right: auto;
+    left: 24px;
+}
+
+.wiki-properties-toggle-btn {
+    right: auto;
+    left: 16px;
+}
+
+.wiki-sidebar.collapsed .wiki-collapse-btn i {
+    transform: rotate(-180deg);
+}
+
+
+/* ============================================================
+   sortableList.css — hierarchical task list connectors
+   ============================================================ */
+
+.sortable-list .sortable-item .sortable-list {
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+.sortable-list .sortable-list::before {
+    left: auto;
+    right: -20px;
+}
+
+.sortable-list .sortable-list > .sortable-item::before {
+    left: auto;
+    right: -10px;
+}
+
+.sortable-list .sortable-list > .sortable-item::after {
+    left: auto;
+    right: -20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid var(--interactive-icon-color);
+    border-right: 2px solid var(--interactive-icon-color);
+}
+
+.task-collapse-toggle {
+    left: auto;
+    right: -24px;
+}
+
+.sortable-list .sortable-list .task-collapse-toggle {
+    left: auto;
+    right: -32px;
+}
+
+.add-task-button {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.milestone-box {
+    border-left: 1px solid transparent;
+    border-right: 0;
+}
+
+
+/* ============================================================
+   stat-tiles.css — KPI tiles and drill-downs
+   ============================================================ */
+
+.lt-stat-value {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.lt-stat-value .lt-stat-unit {
+    align-self: flex-start;
+    margin-left: 0;
+    margin-right: -2px;
+}
+
+.lt-stat-drill {
+    text-align: right;
+}
+
+.lt-stat.has-detail .see-list {
+    right: auto;
+    left: 10px;
+}
+
+
+/* ============================================================
+   reports.css — report tables, sections, milestone lists
+   ============================================================ */
+
+.reportTable thead th,
+.reportTable tbody td {
+    text-align: right;
+}
+
+.reportTable th.numCol,
+.reportTable td.numCol {
+    text-align: left;
+}
+
+.reportMilestone .milestoneMeta {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.reportStatusUpdate {
+    padding: 6px 12px 6px 0;
+}
+
+
+/* ============================================================
+   period-picker.css — reporting period picker
+   ============================================================ */
+
+.lt-periodpicker-menu {
+    right: auto;
+    left: 0;
+}
+
+.lt-periodpicker-opt {
+    flex-direction: row-reverse;
+}
+
+
+/* ============================================================
+   tab-group.css — horizontal tab navigation
+   ============================================================ */
+
+.lt-tabs {
+    direction: rtl;
+}
+
+.lt-tabs-group {
+    flex-direction: row-reverse;
+}
+
+.lt-tabs-actions {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.lt-tabs-actions .filterBar,
+.lt-tabs-actions .dropdown-menu {
+    left: 0 !important;
+    right: auto;
+}
+
+
+/* ============================================================
+   toast-notifications.css
+   ============================================================ */
+
+.toast-notification {
+    right: auto;
+    left: 1.5rem;
+}
+
+.toast-notification--success {
+    border-left: none;
+    border-right: 4px solid var(--accent1);
+}
+
+.toast-notification--error {
+    border-left: none;
+    border-right: 4px solid var(--red);
+}
+
+.toast-notification--info {
+    border-left: none;
+    border-right: 4px solid var(--blue);
+}
+
+
+/* ============================================================
+   mediamanager.css
+   ============================================================ */
+
+.mediamgr .mediamgr_right {
+    right: auto;
+    left: 0;
+}
+
+.mediamgr .mediamgr_rightinner {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.mediamgr_menu li {
+    float: right;
+}
+
+.mediamgr_menu li.right {
+    float: left;
+}
+
+.mediamgr_content {
+    margin-right: 0;
+    margin-left: 250px;
+}
+
+.mediamgr_category ul li.right {
+    float: left;
+}
+
+#mediafilter {
+    left: 0 !important;
+    right: auto !important;
+}
+
+
+/* ============================================================
+   gantt-overwrites.css
+   ============================================================ */
+
+.gantt-container .popup-wrapper .pointer {
+    margin: 10px -12px 0 0;
+}
+
+
+/* ============================================================
+   nyroModal.css — modal dialogs
+   ============================================================ */
+
+.nyroModalCont {
+    direction: rtl;
+    text-align: right;
+}
+
+.nyroModalCloseButton {
+    right: auto;
+    left: 40px;
+}
+
+.modal-icons {
+    float: left;
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.modal-footer {
+    text-align: left;
+}
+
+
+/* ============================================================
+   mobile.css — RTL behavior on small screens
+   ============================================================ */
+
+@media (max-width: 575px) {
+
+    .mainwrapper .leftpanel {
+        left: auto;
+        right: 5px;
+    }
+
+    .leftpanel a.barmenu {
+        left: auto;
+        right: 0;
+        padding-left: 0;
+        padding-right: 15px;
+    }
+
+    .leftpanel a.barmenu.open {
+        left: auto;
+        right: 240px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .headerinner {
+        margin-left: 0 !important;
+        margin-right: 45px !important;
+    }
+
+    .loginpage .forgotPw,
+    .loginpage form a[href*="resetPw"] {
+        float: left;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .userloggedinfo .userinfo a.profileHandler {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .kanbanBoard .column {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .kanbanBoard .column:last-child {
+        margin-left: 0;
+    }
+
+    .maincontent {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .rightpanel {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .loginpage .regRight {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .loginpage .row .regRight {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .loginpage .regpanel {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .loginpage input[type="text"],
+    .loginpage input[type="password"],
+    .loginpage input[type="email"],
+    .loginpage .form-control {
+        margin-bottom: 10px;
+    }
+
+    .loginpage input[type="submit"],
+    .loginpage .btn {
+        padding: 12px;
+        margin-bottom: 15px;
+    }
+
+    .loginpage form {
+        padding: 0;
+        margin: 0;
+    }
+
+    .loginpage .forgotPwContainer,
+    .loginpage form > div {
+        margin-bottom: 15px;
+        padding-right: 0;
+    }
+
+    .loginpage .forgotPw,
+    .loginpage form a[href*="resetPw"] {
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-right: 0;
+    }
+
+    .loginpage .regpanelinner {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .loginpage .regpanelinner > div {
+        margin-bottom: 15px;
+        padding: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1199px) {
+
+    .mainwrapper .leftpanel,
+    .mainwrapper.menuclosed .leftpanel,
+    .mainwrapper.menuopen .leftpanel {
+        left: auto !important;
+        right: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+        width: min(85vw, 300px);
+        max-width: 300px;
+        height: calc(100vh - 50px);
+        top: 50px;
+    }
+
+    .mainwrapper .leftpanel,
+    .mainwrapper.menuclosed .leftpanel {
+        transform: translateX(100%) !important;
+    }
+
+    .mainwrapper.menuopen .leftpanel {
+        transform: translateX(0) !important;
+    }
+
+    .mainwrapper.menuopen .menu-backdrop {
+        left: 0 !important;
+        right: 0 !important;
+        top: 50px;
+    }
+
+    .kanbanBoard .column {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .kanbanBoard .column:last-child {
+        margin-left: 0;
+    }
+
+    .header .dropdown-menu,
+    .headerinner .dropdown-menu {
+        left: 5px;
+        right: 5px;
+    }
+
+    .kanban-column-headers .column,
+    .sortableTicketList .row-fluid > .column {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .kanban-column-headers .column:last-child,
+    .sortableTicketList .row-fluid > .column:last-child {
+        margin-left: 0;
+    }
+}
+
+
+/* ============================================================
+   Collapsed desktop sidebar (icon-only rail)
+   ============================================================ */
+
+@media (min-width: 1200px) {
+
+    .mainwrapper.menuclosed .leftpanel {
+        width: 68px !important;
+        max-width: 68px;
+        left: auto !important;
+        right: 10px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 0 !important;
+        overflow: hidden;
+    }
+
+    .mainwrapper.menuclosed .leftpanel .nav-tabs.nav-stacked.collapsedMenu .bigProjectSelector,
+    .mainwrapper.menuclosed .bigProjectSelector {
+        width: 100% !important;
+        margin: 0 !important;
+        text-align: center;
+        float: none !important;
+    }
+
+    .mainwrapper.menuclosed .bigProjectSelector .projectAvatar {
+        float: none !important;
+        margin: 10px auto 0 !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mainwrapper.menuclosed .leftpanel .leftmenu .nav-tabs.nav-stacked > li,
+    .mainwrapper.menuclosed .leftpanel .leftmenu .nav-tabs.nav-stacked > li.dropdown {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .mainwrapper.menuclosed .leftpanel .leftmenu .nav-tabs.nav-stacked > li.dropdown > a,
+    .mainwrapper.menuclosed .leftpanel .leftmenu .nav-tabs.nav-stacked > li.dropdown a {
+        width: 100% !important;
+        padding: 12px 0 8px 0 !important;
+        margin: 0 0 2px 0 !important;
+        text-align: center !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+    }
+
+    .mainwrapper.menuclosed .leftpanel .leftmenu .nav-tabs.nav-stacked > li.dropdown a i,
+    .mainwrapper.menuclosed .leftpanel .leftmenu .nav-tabs.nav-stacked > li.dropdown a span.fa,
+    .mainwrapper.menuclosed .leftpanel .leftmenu .nav-tabs.nav-stacked > li.dropdown a .fa {
+        margin: 0 !important;
+        float: none !important;
+        font-size: var(--base-font-size);
+        display: inline-block;
+    }
+
+    .mainwrapper.menuclosed .leftpanel .leftmenu .nav-tabs.nav-stacked > li:first-child,
+    .mainwrapper.menuclosed .leftpanel .leftmenu .nav-tabs.nav-stacked > li:first-child a {
+        padding-top: 10px !important;
+        margin-top: 0 !important;
+    }
+
+    .mainwrapper.menuclosed .leftmenu .fixedMenuPoint {
+        width: 68px;
+        left: auto;
+        right: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainwrapper.menuclosed .leftmenu .fixedMenuPoint li {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .mainwrapper.menuclosed .leftmenu .fixedMenuPoint li a {
+        width: 100%;
+        padding: 10px 0 !important;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* ============================================================
+   Header layout on mobile (RTL)
+   ============================================================ */
+
+@media (max-width: 1199px) {
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        overflow: visible;
+        z-index: 90;
+    }
+
+    .headerinner {
+        display: flex !important;
+        align-items: center;
+        flex-wrap: nowrap;
+        height: 50px;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: visible;
+        direction: rtl;
+    }
+
+    .headerinner > a.btnmenu {
+        order: 0;
+        flex: 0 0 auto;
+    }
+
+    .headerinner > a.barmenu {
+        order: 1;
+        flex: 0 0 auto;
+        position: static !important;
+        margin: 0 4px 0 0 !important;
+        padding: 0 6px;
+        line-height: 50px;
+    }
+
+    .headerinner > .logo {
+        order: 2;
+        flex: 0 0 auto;
+        position: static !important;
+        float: none !important;
+        margin: 0 6px !important;
+    }
+
+    .headerinner > .headmenu.work-modes {
+        order: 3;
+        flex: 1 1 auto;
+        min-width: 0;
+        max-width: 100%;
+        margin: 0 4px 0 0 !important;
+        padding: 0 4px;
+        height: 50px;
+        max-height: 50px;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .headerinner > .headmenu.work-modes::-webkit-scrollbar {
+        display: none;
+    }
+
+    .headerinner > .headmenu.work-modes > li {
+        flex: 0 0 auto;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .headerinner > .headmenu.work-modes > li > a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        padding: 0 8px;
+        line-height: 50px;
+    }
+
+    .headerinner > .headmenu.work-modes .bigProjectSelector {
+        height: 50px;
+        max-height: 50px;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .headerinner > .headmenu.pull-right {
+        order: 4;
+        flex: 0 0 auto;
+        margin-left: auto !important;
+        margin-right: 4px !important;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 0;
+        height: 50px;
+    }
+
+    .headerinner > .headmenu.pull-right > li {
+        flex: 0 0 auto;
+        width: auto;
+        min-width: 34px;
+        height: 50px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .headerinner > .headmenu.pull-right > li > a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        min-width: 34px;
+        padding: 0 6px;
+        line-height: 50px;
+    }
+
+    .headerinner .userloggedinfo .userinfo a.profileHandler {
+        padding: 0 4px;
+        margin: 0;
+    }
+
+    .headerinner > .headmenu.pull-right > li.appsLink {
+        display: none !important;
+    }
+
+    .rightpanel {
+        padding-top: 50px;
+    }
+
+    .maincontent {
+        margin-top: 0;
+        padding-top: 10px;
+    }
+
+    /* Default state: hidden in mobile, no matter what .mainwrapper says */
+    .mainwrapper .leftpanel {
+        display: none !important;
+        left: auto !important;
+        right: 0 !important;
+        transform: translateX(100%) !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+        width: min(85vw, 300px);
+        max-width: 300px;
+        height: calc(100vh - 50px);
+        top: 50px;
+        z-index: 1001;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    /* Only show the panel when the wrapper is explicitly marked open
+       AND the drawer has been activated by a user action. */
+    body.lt-drawer-activated .mainwrapper.menuopen .leftpanel {
+        display: flex !important;
+        transform: translateX(0) !important;
+    }
+
+    /* Closed state — always hidden */
+    .mainwrapper.menuclosed .leftpanel {
+        display: none !important;
+    }
+
+    /* Backdrop should also only show when drawer is activated */
+    body.lt-drawer-activated .mainwrapper.menuopen .menu-backdrop {
+        display: block;
+        left: 0 !important;
+        right: 0 !important;
+        top: 50px;
+    }
+
+    /* Menu backdrop default hidden */
+    .mainwrapper.menuopen .menu-backdrop {
+        display: none;
+    }
+
+    body:not(.lt-page-ready) .mainwrapper .leftpanel {
+        transition: none !important;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .headerinner > a.barmenu {
+        margin: 0 2px 0 0 !important;
+        padding: 0 4px;
+    }
+
+    .headerinner > .logo {
+        margin: 0 4px !important;
+    }
+
+    .headerinner > .headmenu.work-modes {
+        margin: 0 2px 0 0 !important;
+        padding: 0 2px;
+    }
+
+    .headerinner > .headmenu.pull-right > li > a {
+        min-width: 30px;
+        padding: 0 4px;
+    }
+}
+
+
+/* ============================================================
+   jQuery UI Tabs RTL Fixes
+   ============================================================ */
+
+.ui-tabs-nav {
+    direction: rtl;
+    text-align: right;
+}
+
+.ui-tabs-nav > li {
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: none;
+    border-right: 1px solid var(--main-border-color);
+}
+
+.ui-tabs-nav > li:first-child {
+    border-right: none;
+}
+
+.ui-tabs-nav > li a {
+    text-align: right;
+}
+
+.ui-tabs-nav > li.ui-tabs-active a {
+    border-left: none;
+    border-right: 3px solid var(--accent1);
+}
+
+.ui-tabs-panel {
+    direction: rtl;
+    text-align: right;
+}
+
+
+/* ============================================================
+   Bootstrap grid — mirror column floats
+   ============================================================ */
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
+.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
+.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,
+.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,
+.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,
+.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    float: right;
+}
+
+[class*="span"] {
+    float: right;
+}
+
+.pull-right { float: left !important; }
+.pull-left  { float: right !important; }
+
+.text-right { text-align: left !important; }
+.text-left  { text-align: right !important; }
+.align-right { text-align: left; }
+.align-center { text-align: center; }
+.f-right { float: left !important; }
+.f-left  { float: right !important; }
+.right   { float: left; }
+.left    { float: right; }
+
+.dropdown-menu {
+    right: 0;
+    left: auto;
+    text-align: right;
+}
+
+.dropdown-menu.pull-right {
+    left: 0;
+    right: auto;
+}
+
+table th,
+table td {
+    text-align: right;
+}
+
+.headmenu.pull-right {
+    float: right !important;
+}
+
+
+/* ============================================================
+   Special RTL fixes
+   ============================================================ */
+
+.reportTable .progress,
+.table .progress {
+    direction: ltr;
+}
+
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="url"] {
+    direction: ltr;
+    text-align: right;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"] {
+    direction: ltr;
+}
+
+.fa,
+.fas,
+.far,
+.fal,
+.fab,
+.fa-solid,
+.fa-regular,
+.fa-brands {
+    direction: ltr;
+}
+
+.emoji {
+    direction: ltr;
+}
+
+canvas {
+    direction: ltr;
+}
+
+input[type=range] {
+    direction: ltr;
+}
+
+.sparkline,
+.gauge {
+    direction: ltr;
+}
+
+.due-date-container,
+.date-picker-form-control {
+    direction: ltr;
+}
+
+.chosen-container-single .chosen-single div {
+    right: auto;
+    left: 0;
+}
+
+.ss-main .ss-single-selected .ss-arrow {
+    margin: 0 5px 0 0;
+}
+
+
+/* ============================================================
+   Page header and content cards
+   ============================================================ */
+
+.pageheader {
+    direction: rtl;
+}
+
+.pageheader .pagetitle {
+    text-align: right;
+}
+
+.pageheader-right {
+    margin-left: 0;
+    margin-right: auto;
+    flex-direction: row-reverse;
+}
+
+.pageheader-meta {
+    text-align: right;
+}
+
+
+/* ============================================================
+   Small UI adjustments
+   ============================================================ */
+
+.maincontentinner .table.listStyleTable td.roundStatusBtn .f-left {
+    float: none !important;
+}
+
+.ticketBox .dropdown-toggle.status {
+    float: none;
+}
+
+.ticketDropdown.userDropdown ul {
+    top: 33px;
+    left: auto;
+    right: 6px;
+}
+
+.dropRight ul,
+.ticketDropdown.userDropdown.dropRight ul {
+    right: auto;
+    left: 0;
+}
+
+.pagination > ul > li:first-child > a,
+.pagination > ul > li:first-child > span {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: var(--box-radius-small, 8px);
+    border-bottom-right-radius: var(--box-radius-small, 8px);
+}
+
+.pagination > ul > li:last-child > a,
+.pagination > ul > li:last-child > span {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: var(--box-radius-small, 8px);
+    border-bottom-left-radius: var(--box-radius-small, 8px);
+}
+
+.leftpanel .promotion i {
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.widgettitle .editHeadline {
+    float: left;
+    margin-right: 0;
+    margin-left: -5px;
+}
+
+.commentImage {
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.commentMain {
+    float: right;
+}
+
+.commentReply {
+    float: right;
+}
+
+.commentContent .text {
+    text-align: right;
+}
+
+.commentLinks a {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.articleWrapper {
+    text-align: right;
+}
+
+a.titleInsertLink,
+a.titleInsertLink:link {
+    float: left;
+}
+
+.half {
+    float: right;
+    margin-right: 0;
+    margin-left: 1%;
+}
+
+.widgetright {
+    margin-left: 0;
+    margin-right: 15px;
+    float: left;
+}
+
+.widgetleft {
+    margin-right: 0;
+    margin-left: 15px;
+    float: right;
+}
+
+.box-right {
+    float: left;
+    clear: left;
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+.actionButtons {
+    float: left;
+}
+
+.searchbar {
+    right: auto;
+    left: 20px;
+}
+
+.headtitle .btn-group {
+    float: left;
+}
+
+.headtitle .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+
+.column-filter-widget {
+    float: right;
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.column-filter-widgets {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+a.filter-term {
+    float: right;
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.filter-term:after {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+.StripeElement#card-expiry {
+    float: right;
+}
+
+.StripeElement#card-cvc {
+    float: left;
+}
+
+.row .regLeft {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row .regLeft .welcomeContent {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.row .regLeft .logo a {
+    text-align: right;
+}
+
+.row .regLeft .socialProofContent {
+    margin-left: 0;
+    margin-right: 55px;
+}
+
+.forgotPwContainer {
+    text-align: left;
+}
+
+
+/* ============================================================
+   text-styles.css — labels, headings, pill labels
+   ============================================================ */
+
+.label-important, .label-warning,
+.label-success, .label-info, .label-inverse,
+.label-default, .label-primary, .label-danger {
+    margin-left: 0;
+    margin-right: 4px;
+}
+
+a .label:after,
+a .label-important:after, a .label-warning:after,
+a .label-success:after, a .label-info:after, .label-inverse:after,
+a .label-default:after, a .label-primary:after {
+    margin-left: 0;
+    margin-right: 2px;
+}
+
+a .label.feature-label {
+    right: auto;
+    left: 0;
+}
+
+blockquote {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+blockquote.pull-right {
+    background-position: left 5px;
+    padding: 0 0 0 40px;
+    border-right: 0;
+    border-left: 0;
+}
+
+h4 .helperTooltip,
+.helperTooltip {
+    float: left;
+}
+
+
+/* ============================================================
+   quickadd.less
+   ============================================================ */
+
+.quickAddLink {
+    justify-content: flex-start;
+}
+
+.quickAddHelp {
+    right: auto;
+    left: 8px;
+}
+
+
+/* ============================================================
+   tree-overwrites.css (jstree)
+   ============================================================ */
+
+.jstree-default .jstree-icon:empty {
+    padding-right: 0;
+    padding-left: 4px;
+}
+
+
+/* ============================================================
+   tourBoxes.css (shepherd)
+   ============================================================ */
+
+.shepherd-has-title .shepherd-content .shepherd-cancel-icon {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+
+/* ============================================================
+   mermaid.css — mermaid diagrams keep LTR flow internally
+   ============================================================ */
+
+.mermaid-diagram {
+    direction: ltr;
+}
+
+
+/* ============================================================
+   Print-specific RTL alignment
+   ============================================================ */
+
+@media print {
+    body {
+        direction: rtl;
+    }
+
+    .footer .footer-right {
+        float: left;
+    }
+
+    .footer .footer-left {
+        float: right;
+    }
+}
+
+
+/* ============================================================
+   Tiptap Editor RTL Fixes
+   ============================================================ */
+
+.tiptap-toolbar {
+    direction: rtl;
+}
+
+.tiptap-toolbar__group {
+    direction: rtl;
+}
+
+.tiptap-editor .ProseMirror blockquote {
+    border-left: none;
+    border-right: 4px solid var(--primary-color, #5a67d8);
+    padding-left: 0;
+    padding-right: 1em;
+}
+
+.tiptap-editor .ProseMirror ul,
+.tiptap-editor .ProseMirror ol {
+    padding-left: 0;
+    padding-right: 1.5em;
+}
+
+.tiptap-editor .ProseMirror th,
+.tiptap-editor .ProseMirror td {
+    text-align: right;
+}
+
+.tiptap-editor .ProseMirror .column-resize-handle {
+    right: auto;
+    left: -2px;
+}
+
+.tiptap-editor .image-resizer .resize-trigger {
+    right: auto;
+    left: -6px;
+}
+
+.tiptap-details summary:not(.tiptap-details__summary)::before {
+    margin-right: 0;
+    margin-left: 10px;
+    border-left: none;
+    border-right: 6px solid currentColor;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+.tiptap-details__arrow {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.tiptap-details__arrow::before {
+    border-left: none;
+    border-right: 6px solid currentColor;
+}
+
+.tiptap-toc__item--level-1 { padding-right: 0; padding-left: 0; }
+.tiptap-toc__item--level-2 { padding-right: 16px; padding-left: 0; }
+.tiptap-toc__item--level-3 { padding-right: 32px; padding-left: 0; }
+.tiptap-toc__item--level-4 { padding-right: 48px; padding-left: 0; }
+.tiptap-toc__item--level-5 { padding-right: 64px; padding-left: 0; }
+.tiptap-toc__item--level-6 { padding-right: 80px; padding-left: 0; }
+
+.tiptap-mermaid__edit-btn {
+    right: auto;
+    left: 40px;
+}
+
+.tiptap-mermaid__delete-btn {
+    right: auto;
+    left: 8px;
+}
+
+.tiptap-math__edit-btn {
+    right: auto;
+    left: 40px;
+}
+
+.tiptap-math__delete-btn {
+    right: auto;
+    left: 8px;
+}
+
+.tiptap-details__delete-btn {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+.tiptap-embed::before {
+    left: auto;
+    right: 8px;
+}
+
+
+/* ============================================================
+   Report Deck (report-deck.css) RTL Fixes
+   ============================================================ */
+
+.rd-hdr {
+    direction: rtl;
+}
+
+.rd-hdr .verdict {
+    align-items: flex-end;
+    text-align: left;
+}
+
+.rd-scope .p1-hero {
+    text-align: right;
+}
+
+.rd-scope .p1-hero .eye {
+    flex-direction: row-reverse;
+}
+
+.rd-scope .p1-hero .hf {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.rd-scope .p1-goal {
+    grid-template-columns: 84px 78px minmax(0,1fr) minmax(0,1.4fr);
+}
+
+.rd-scope .p1-goal .gn {
+    text-align: right;
+}
+
+.rd-scope .p1-goal .gpct {
+    text-align: left;
+}
+
+.rd-scope .p1-goal .gstat {
+    justify-self: start;
+}
+
+.rd-scope .p1-theory .segs {
+    flex-direction: row-reverse;
+}
+
+.rd-scope .p1-theory .conn .tip {
+    left: 50%;
+    transform: translateX(-50%) translateY(4px);
+}
+
+.rd-scope .p1-theory .conn:hover .tip {
+    transform: translateX(-50%) translateY(0);
+}
+
+.rd-scope .p1-info .pop {
+    left: auto;
+    right: -6px;
+}
+
+.rd-scope .p1-theory .detail-info .pop {
+    left: auto;
+    right: 0;
+}
+
+.rd-scope .p2-stage {
+    border-left: none;
+    border-right: 3px solid var(--rd-s3);
+}
+
+.rd-scope .p2-stage.outcomes {
+    border-right-color: var(--rd-s4);
+}
+
+.rd-scope .p2-brk-progrow {
+    grid-template-columns: 82px 44px 120px minmax(0,1fr) 13px;
+}
+
+.rd-scope .p2-brk-progrow.single {
+    grid-template-columns: 82px minmax(0,1fr) 13px;
+}
+
+.rd-scope .p2-brk-projs {
+    margin: 6px 25px 0 0;
+    padding-left: 0;
+    padding-right: 14px;
+    border-left: none;
+    border-right: 2px solid var(--rd-line-soft);
+}
+
+.rd-scope .p3-sec-hd {
+    padding: 0 14px 11px 0;
+}
+
+.rd-scope .p3-sec-hd::before {
+    left: auto;
+    right: 0;
+}
+
+.rd-scope .p3-bd-program summary .expand-chevron {
+    transform: scaleX(-1);
+}
+
+.rd-scope .p3-bd-program[open] > summary .expand-chevron {
+    transform: scaleX(-1) rotate(90deg);
+}
+
+.rd-scope .p3-bd-row.child-row {
+    padding: 9px 32px 9px 18px;
+}
+
+.rd-scope .p3-dep-meta .row .lbl {
+    min-width: 82px;
+    text-align: right;
+}
+
+.rd-scope .p4-metric {
+    grid-template-columns: 140px 200px minmax(0,1.4fr);
+}
+
+.rd-scope .p4-verdict {
+    justify-self: start;
+}
+
+.rd-scope .p4-lens .lopt.locked i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.rd-scope .p4-two {
+    direction: rtl;
+}
+
+.rd-actions-menu {
+    text-align: right !important;
+}
+
+.rd-actions-menu li > a {
+    text-align: right !important;
+    flex-direction: row-reverse;
+}
+
+.rd-actions-menu li > a i {
+    text-align: right !important;
+}
+
+.rd-actions-menu .dropdown-header {
+    text-align: right !important;
+}
+
+
+/* ============================================================
+   Resource Allocation (resource-allocation.css) RTL Fixes
+   ============================================================ */
+
+.ra-scope {
+    direction: rtl;
+}
+
+.ra-hdr {
+    direction: rtl;
+}
+
+.ra-secHd {
+    flex-direction: row-reverse;
+}
+
+.ra-secHd .sn {
+    text-align: right;
+}
+
+.ra-secHd .sc {
+    text-align: left;
+}
+
+.ra-info-tip .ra-info-bubble {
+    left: auto;
+    right: 0;
+}
+
+.ra-info-tip .ra-info-bubble::before {
+    left: auto;
+    right: 12px;
+}
+
+.ra-seg {
+    direction: rtl;
+}
+
+.ra-row-menu {
+    right: auto;
+    left: 4px;
+}
+
+.ra-row-menu-items {
+    right: auto;
+    left: 0;
+}
+
+.ra-alloc-row {
+    grid-template-columns: 42px minmax(80px,1fr) auto minmax(0,1fr) 12px;
+}
+
+.ra-alloc-row .pct {
+    text-align: left;
+}
+
+.ra-prow .prole .ra-emp-badge {
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.ra-planbar {
+    direction: ltr;
+}
+
+.ra-jhead {
+    direction: rtl;
+}
+
+.ra-chart-container {
+    direction: ltr;
+}
+
+
+/* ============================================================
+   Reverse Wizard (reverse-wizard.css) RTL Fixes
+   ============================================================ */
+
+.reverse-modal {
+    direction: rtl;
+}
+
+.rm-opt {
+    flex-direction: row-reverse;
+}
+
+.rm-opt .arr {
+    margin-left: 0;
+    margin-right: auto;
+    transform: scaleX(-1);
+}
+
+.rev-wiz {
+    direction: rtl;
+}
+
+.rw-rail {
+    flex-direction: row-reverse;
+}
+
+.rw-node {
+    flex-direction: row-reverse;
+}
+
+.rw-scope {
+    flex-direction: row-reverse;
+}
+
+.rw-row {
+    flex-direction: row-reverse;
+}
+
+.rw-main {
+    text-align: right;
+}
+
+.rw-reveal {
+    flex-direction: row-reverse;
+}
+
+.rw-reveal .rc {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.rw-foot {
+    flex-direction: row-reverse;
+}
+
+.rw-foot .sp {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.rw-guide {
+    text-align: right;
+}
+
+.rw-guide textarea {
+    direction: rtl;
+    text-align: right;
+}
+
+.rev-review {
+    direction: rtl;
+}
+
+.rr-stage summary {
+    flex-direction: row-reverse;
+}
+
+.rr-details {
+    padding: 2px 60px 14px 16px;
+}
+
+.rr-details li::before {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.rr-foot {
+    flex-direction: row-reverse;
+}
+
+.rr-note {
+    text-align: right;
+}
+
+
+/* ============================================================
+   Tab Group (tab-group.css) RTL Fixes
+   ============================================================ */
+
+.lt-tabs {
+    direction: rtl;
+}
+
+.lt-tabs-group {
+    flex-direction: row-reverse;
+}
+
+.lt-tabs-actions {
+    margin-left: 0;
+    margin-right: auto;
+    flex-direction: row-reverse;
+}
+
+.lt-tabs--links .lt-tabs-group ul {
+    flex-direction: row-reverse;
+}
+
+@media print {
+    .lt-tabs {
+        display: none;
+    }
+}
+
+
+/* ============================================================
+   Period Picker (period-picker.css) RTL Fixes
+   ============================================================ */
+
+.lt-periodpicker {
+    direction: rtl;
+}
+
+.lt-periodpicker-menu {
+    right: auto;
+    left: 0;
+}
+
+.lt-periodpicker-opt {
+    flex-direction: row-reverse;
+}
+
+
+/* ============================================================
+   Stat Tiles (stat-tiles.css) RTL Fixes
+   ============================================================ */
+
+.lt-stat-value {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.lt-stat-value .lt-stat-unit {
+    align-self: flex-start;
+    margin-left: 0;
+    margin-right: -2px;
+}
+
+.lt-stat.has-detail .see-list {
+    right: auto;
+    left: 10px;
+    flex-direction: row-reverse;
+}
+
+.lt-stat-drill {
+    text-align: right;
+}
+
+.lt-stat-drill li {
+    flex-direction: row-reverse;
+}
+
+.lt-stat-drill li .mt {
+    text-align: left;
+}
+
+
+/* ============================================================
+   Reports (reports.css) RTL Fixes
+   ============================================================ */
+
+.reportSection h5.subtitle {
+    flex-direction: row-reverse;
+}
+
+.reportNeedsAttention {
+    border-left: none;
+    border-right: 3px solid var(--red);
+}
+
+.reportMilestone .milestoneTitleRow {
+    flex-direction: row-reverse;
+}
+
+.reportMilestone .milestoneMeta {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.reportTable thead th {
+    text-align: right;
+}
+
+.reportTable th.numCol,
+.reportTable td.numCol {
+    text-align: left;
+}
+
+.reportStatusUpdate {
+    padding: 6px 12px 6px 0;
+}
+
+.reportHeaderBand {
+    flex-direction: row-reverse;
+}
+
+
+/* ============================================================
+   Forms (forms.css) RTL Fixes
+   ============================================================ */
+
+.ss-main .ss-single-selected {
+    direction: rtl;
+}
+
+.ss-main .ss-single-selected .placeholder {
+    text-align: right;
+}
+
+.ss-main .ss-single-selected .ss-arrow {
+    margin: 0 5px 0 0;
+}
+
+.ss-main .ss-multi-selected .ss-add {
+    margin: 4px 0 0 5px;
+}
+
+.chosen-container-single .chosen-single {
+    direction: rtl;
+}
+
+.chosen-container-single .chosen-single span {
+    margin-right: 0;
+    margin-left: 26px;
+}
+
+.chosen-container-single .chosen-single div {
+    right: auto;
+    left: 0;
+}
+
+.chosen-container-single .chosen-single abbr {
+    right: auto;
+    left: 26px;
+}
+
+.chosen-container-single .chosen-search input[type=text] {
+    direction: rtl;
+}
+
+div.tagsinput {
+    direction: rtl;
+}
+
+div.tagsinput span.tag {
+    float: right;
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+div.tagsinput span.tag a {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+div.tagsinput input {
+    direction: rtl;
+}
+
+input[type="checkbox"].toggle {
+    direction: ltr;
+}
+
+.weekday-checkbox {
+    margin-right: 0 !important;
+    margin-left: 4px !important;
+}
+
+input.input-line {
+    margin-left: 0;
+    margin-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn .caret {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.btn-group > .btn + .dropdown-toggle {
+    padding-left: 8px;
+    padding-right: 3px;
+}
+
+
+/* ============================================================
+   Kanban (kanban.css) RTL Fixes
+   ============================================================ */
+
+.ticketBox {
+    border-left: none;
+    border-right: 3px solid color-mix(in srgb, var(--primary-font-color) 22%, transparent);
+    padding: 10px 10px 10px 12px;
+}
+
+.ticketBox:hover {
+    border-right-color: color-mix(in srgb, var(--primary-font-color) 20%, transparent);
+    border-left: none;
+}
+
+.ticketBox .ticketBox,
+.projectBox .ticketBox {
+    border-left: none;
+    border-right: 3px solid var(--main-border-color);
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+body .maincontent .priority-border-1,
+body .maincontent .commentStatus-red {
+    border-left: none;
+    border-right: 3px solid var(--dark-red);
+}
+
+body .maincontent .priority-border-2 {
+    border-left: none;
+    border-right: 3px solid var(--red);
+}
+
+body .maincontent .priority-border-3,
+body .maincontent .commentStatus-yellow {
+    border-left: none;
+    border-right: 3px solid var(--yellow);
+}
+
+body .maincontent .priority-border-4,
+body .maincontent .commentStatus-green {
+    border-left: none;
+    border-right: 3px solid var(--green);
+}
+
+body .maincontent .priority-border-5 {
+    border-left: none;
+    border-right: 3px solid var(--dark-grey);
+}
+
+.kanban-swimlane-sidebar {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.kanban-swimlane-content {
+    border-radius: var(--box-radius) 0 0 var(--box-radius);
+}
+
+.kanban-sidebar-tooltip {
+    left: auto;
+    right: 100%;
+    border-left: 1px solid var(--main-border-color);
+    border-right: none;
+    border-radius: var(--box-radius) 0 0 var(--box-radius);
+}
+
+.compact-ticket {
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+
+.compact-ticket.priority-border-1 { border-right-color: var(--dark-red); }
+.compact-ticket.priority-border-2 { border-right-color: var(--red); }
+.compact-ticket.priority-border-3 { border-right-color: var(--yellow); }
+.compact-ticket.priority-border-4 { border-right-color: var(--green); }
+.compact-ticket.priority-border-5 { border-right-color: var(--grey); }
+
+.kanban-column-headers.groupby-active {
+    margin-left: 0;
+    margin-right: 158px;
+}
+
+
+/* ============================================================
+   Wiki (wiki.css) RTL Fixes
+   ============================================================ */
+
+.wiki-contents-panel {
+    border-right: none;
+    border-left: 1px solid var(--main-border-color);
+}
+
+.wiki-properties-panel {
+    border-left: none;
+    border-right: 1px solid var(--main-border-color);
+    padding: 20px 20px 20px 24px;
+}
+
+.wiki-panel-toggle.left {
+    left: auto;
+    right: 0;
+    border-radius: 8px 0 0 8px;
+    border-left: 1px solid var(--main-border-color);
+    border-right: none;
+}
+
+.wiki-panel-toggle.right {
+    right: auto;
+    left: 0;
+    border-radius: 0 8px 8px 0;
+    border-right: 1px solid var(--main-border-color);
+    border-left: none;
+}
+
+.wiki-document blockquote {
+    border-left: none;
+    border-right: 3px solid var(--accent1);
+    border-radius: 16px 4px 4px 16px;
+}
+
+.wiki-tree ul {
+    padding: 0 16px 0 0;
+}
+
+.wiki-document-wrapper:not(.editing):hover::after {
+    right: auto;
+    left: 8px;
+}
+
+.wiki-edit-indicator {
+    right: auto;
+    left: 24px;
+}
+
+.wiki-properties-toggle-btn {
+    right: auto;
+    left: 16px;
+}
+
+
+/* ============================================================
+   Sortable List (sortableList.css) RTL Fixes
+   ============================================================ */
+
+.sortable-list .sortable-item .sortable-list {
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+.sortable-list .sortable-list::before {
+    left: auto;
+    right: -20px;
+}
+
+.sortable-list .sortable-list > .sortable-item::before {
+    left: auto;
+    right: -10px;
+}
+
+.sortable-list .sortable-list > .sortable-item::after {
+    left: auto;
+    right: -20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid var(--interactive-icon-color);
+    border-right: 2px solid var(--interactive-icon-color);
+}
+
+.task-collapse-toggle {
+    left: auto;
+    right: -24px;
+}
+
+.sortable-list .sortable-list .task-collapse-toggle {
+    left: auto;
+    right: -32px;
+}
+
+.add-task-button {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.milestone-box {
+    border-left: 1px solid transparent;
+    border-right: 0;
+}
+
+
+/* ============================================================
+   Toast Notifications (toast-notifications.css) RTL Fixes
+   ============================================================ */
+
+.toast-notification {
+    right: auto;
+    left: 1.5rem;
+}
+
+.toast-notification--success {
+    border-left: none;
+    border-right: 4px solid var(--accent1);
+}
+
+.toast-notification--error {
+    border-left: none;
+    border-right: 4px solid var(--red);
+}
+
+.toast-notification--info {
+    border-left: none;
+    border-right: 4px solid var(--blue);
+}
+
+
+/* ============================================================
+   Media Manager (mediamanager.css) RTL Fixes
+   ============================================================ */
+
+.mediamgr .mediamgr_right {
+    right: auto;
+    left: 0;
+}
+
+.mediamgr .mediamgr_rightinner {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.mediamgr_menu li {
+    float: right;
+}
+
+.mediamgr_menu li.right {
+    float: left;
+}
+
+.mediamgr_content {
+    margin-right: 0;
+    margin-left: 250px;
+}
+
+.mediamgr_category ul li.right {
+    float: left;
+}
+
+#mediafilter {
+    left: 0 !important;
+    right: auto !important;
+}
+
+
+/* ============================================================
+   Gantt (gantt-overwrites.css) RTL Fixes
+   ============================================================ */
+
+.gantt-container .popup-wrapper .pointer {
+    margin: 10px -12px 0 0;
+}
+
+
+/* ============================================================
+   NyroModal (nyroModal.css) RTL Fixes
+   ============================================================ */
+
+.nyroModalCont {
+    direction: rtl;
+    text-align: right;
+}
+
+.nyroModalCloseButton {
+    right: auto;
+    left: 40px;
+}
+
+.modal-icons {
+    float: left;
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.modal-footer {
+    text-align: left;
+}
+
+
+/* ============================================================
+   Calendar (calendar.css) RTL Fixes
+   ============================================================ */
+
+.fc {
+    direction: rtl;
+    text-align: right;
+}
+
+.fc .fc-toolbar-title {
+    text-align: right;
+}
+
+.fc .fc-button-group {
+    flex-direction: row-reverse;
+}
+
+.fc-timegrid-event .fc-event-main,
+.fc-daygrid-event .fc-event-main {
+    text-align: right;
+}
+
+.fc-daygrid-day-events {
+    direction: rtl;
+}
+
+
+/* ============================================================
+   Utility fixes
+   ============================================================ */
+
+.tiptap-editor .ProseMirror ul[data-type="taskList"] mark {
+    background-color: transparent;
+}
+
+.color-circle .color {
+    /* symmetric */
+}
+
+body .btn.btn-round-icon {
+    /* symmetric, no change needed */
+}
+
+/* ============================================================
+   Fixes for Mobile Drawer, Inline Dropdowns, and Project Selector
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   1. Mobile Drawer — Hide completely when closed
+   ------------------------------------------------------------
+   The base mobile.css uses `transform: translateX(-100%)` for
+   LTR. In RTL we use `translateX(100%)`, but this leaves the
+   panel in the DOM and its edge may still be visible. Using
+   `display: none` for the closed state guarantees it's fully
+   hidden, and `display: flex` for the open state restores it.
+   ------------------------------------------------------------ */
+
+@media (max-width: 1199px) {
+
+    /* Closed state: hide entirely to prevent any visual artifact */
+    .mainwrapper.menuclosed .leftpanel {
+        display: none !important;
+        transform: translateX(100%) !important;
+    }
+
+    /* Open state: show as drawer sliding from the right */
+    .mainwrapper.menuopen .leftpanel {
+        display: flex !important;
+        left: auto !important;
+        right: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+        width: min(85vw, 300px);
+        max-width: 300px;
+        height: calc(100vh - 50px);
+        top: 50px;
+        transform: translateX(0) !important;
+        z-index: 1001;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 575px) {
+    .mainwrapper.menuclosed .leftpanel {
+        display: none !important;
+    }
+
+    .mainwrapper.menuopen .leftpanel {
+        display: flex !important;
+        width: min(90vw, 320px) !important;
+        max-width: 320px !important;
+        transform: translateX(0) !important;
+    }
+
+    .mainwrapper .leftpanel {
+        display: none !important;
+        width: min(90vw, 320px) !important;
+        max-width: 320px !important;
+        transform: translateX(100%) !important;
+    }
+
+    body.lt-drawer-activated .mainwrapper.menuopen .leftpanel {
+        display: flex !important;
+        transform: translateX(0) !important;
+    }
+
+    .mainwrapper.menuclosed .leftpanel {
+        display: none !important;
+    }
+}
+
+
+/* ------------------------------------------------------------
+   2 & 4. Inline Dropdown Container — Float to LEFT in RTL
+   ------------------------------------------------------------
+   The HTML carries an inline `style="float:right;"`, which
+   overrides our CSS. We use !important to force float:left in
+   RTL, and ensure the dropdown opens leftward.
+   ------------------------------------------------------------ */
+
+.inlineDropDownContainer {
+    float: left !important;
+    position: relative;
+    display: inline-block;
+}
+
+/* Ensure it stays left inside ticket/timer/project boxes */
+.ticketBox .inlineDropDownContainer,
+.timerContainer .inlineDropDownContainer,
+.projectBox .inlineDropDownContainer,
+.col-md-12 .inlineDropDownContainer {
+    float: left !important;
+}
+
+/* The dropdown menu should open from the left edge of the trigger */
+.inlineDropDownContainer .dropdown-menu {
+    right: auto;
+    left: 0;
+    text-align: right;
+}
+
+.inlineDropDownContainer .dropdown-menu::after {
+    left: auto;
+    right: 10px;
+}
+
+/* Ticket dropdown variant */
+.inlineDropDownContainer .ticketDropDown {
+    float: left;
+    margin-right: 0;
+    margin-left: -5px;
+}
+
+/* When dropright class is used, still open to the left in RTL */
+.inlineDropDownContainer.dropright .dropdown-menu {
+    right: auto;
+    left: -5px;
+}
+
+
+/* ------------------------------------------------------------
+   3. Project Selector Dropdown — Open to the LEFT in RTL
+   ------------------------------------------------------------
+   When the sidebar is collapsed/closed, the project selector
+   lives in the header. In RTL it sits on the left side of the
+   header, so its dropdown must open leftward to stay within
+   the viewport. When it's in the left panel (sidebar open),
+   it opens rightward as usual.
+   ------------------------------------------------------------ */
+
+/* When the selector is in the header (sidebar collapsed/closed) */
+.mainwrapper.menuclosed .headmenu .projectselector,
+.mainwrapper.menuclosed .headerinner .projectselector,
+.headerinner .projectselector,
+.headmenu .projectselector {
+    right: auto;
+    left: 0;
+    max-width: calc(100vw - 20px);
+}
+
+/* The arrow (::after) should point to the trigger on the right */
+.mainwrapper.menuclosed .headmenu .projectselector::after,
+.mainwrapper.menuclosed .headerinner .projectselector::after,
+.headerinner .projectselector::after,
+.headmenu .projectselector::after {
+    left: auto;
+    right: 10px;
+}
+
+/* When in the left panel (sidebar open), open to the right */
+.leftpanel .projectselector {
+    right: auto;
+    left: 73px;
+}
+
+.leftpanel .projectselector::after {
+    left: auto;
+    right: -9px;
+    transform: rotate(90deg);
+}
+
+/* Mobile adjustments */
+@media (max-width: 1199px) {
+    .headmenu .projectselector,
+    .headerinner .projectselector {
+        min-width: 280px;
+        max-width: calc(100vw - 20px);
+        right: auto;
+        left: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .headmenu .projectselector,
+    .headerinner .projectselector {
+        min-width: 260px;
+        width: 260px;
+        max-width: calc(100vw - 20px);
+    }
+}
+
+/* ============================================================
+   DataTables & Table Cells — Force RTL Text Alignment
+   ============================================================ */
+
+/* All table cells align right in RTL */
+.maincontentinner .table td,
+.maincontentinner .table th,
+.maincontentinner .dataTable td,
+.maincontentinner .dataTable th,
+.maincontentinner .reportTable td,
+.maincontentinner .reportTable th,
+table.dataTable td,
+table.dataTable th {
+    text-align: right !important;
+}
+
+/* The "empty" header cell (no-sort) has no text, keep it centered */
+.maincontentinner .table th.no-sort,
+.maincontentinner .dataTable th.no-sort,
+.maincontentinner .table th.sorting_disabled,
+.maincontentinner .dataTable th.sorting_disabled {
+    text-align: center !important;
+}
+
+/* The action column (dropdown ellipsis) — center the dropdown */
+.maincontentinner .table td:has(.inlineDropDownContainer),
+.maincontentinner .dataTable td:has(.inlineDropDownContainer) {
+    text-align: center !important;
+    padding: 0 4px;
+}
+
+.maincontentinner .table td .inlineDropDownContainer,
+.maincontentinner .dataTable td .inlineDropDownContainer {
+    display: inline-block;
+    float: none !important;
+    vertical-align: middle;
+}
+
+/* Booked hours column — right-aligned, tabular numbers */
+.maincontentinner .table td.booked-hours-col,
+.maincontentinner .dataTable td.booked-hours-col,
+.maincontentinner .table td[data-order*="."],
+.maincontentinner .dataTable td[data-order*="."] {
+    text-align: right !important;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Table footer total — align right */
+.maincontentinner .table tfoot td,
+.maincontentinner .dataTable tfoot td {
+    text-align: right !important;
+}
+
+/* Sort indicator arrows stay after text in RTL */
+.dataTable thead th.sorting::after,
+.dataTable thead th.sorting_asc::after,
+.dataTable thead th.sorting_desc::after {
+    float: left;
+    margin-left: 4px;
+    margin-right: 0;
+}
+
+/* Pagination */
+.dataTables_paginate {
+    text-align: left;
+}
+
+
+/* ============================================================
+   Modal Meta Text — Prevent overlap with Close button
+   ============================================================ */
+
+/* The meta line (Created by ... | Last Updated: ...) should not
+   slide under the X close button in the top-left of the modal. */
+.nyroModalCont small.tw-float-right,
+.nyroModalCont .tw-float-right.tw-pr-md,
+.nyroModalCont small[style*="padding"] {
+    padding-right: 30px !important;
+    padding-left: 0 !important;
+    display: block;
+    float: none !important;
+    text-align: left !important;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    direction: rtl;
+    color: var(--secondary-font-color);
+    font-size: var(--font-size-s);
+}
+
+/* Ensure close button stays on top */
+.nyroModalCont .nyroModalCloseButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: auto;
+    z-index: 1000010;
+}
+
+/* Clear floats inside modal */
+.nyroModalCont .row {
+    clear: both;
+}
+
+/* Fallback for browsers without :has() */
+.maincontentinner .table td:last-child,
+.maincontentinner .dataTable td:last-child {
+    text-align: right !important;
+    padding: 0 4px;
+}
+
+/* ============================================================
+   DataTables Pagination — Add spacing from table
+   ============================================================ */
+
+/* Give the pagination enough margin-top so it doesn't overlap the table */
+.maincontentinner .dataTables_wrapper .dataTables_paginate,
+.dataTables_wrapper .dataTables_paginate {
+    margin-top: 5px;
+    padding-top: 5px;
+    position: relative; /* Change from absolute to relative so it flows after the table */
+    right: auto;
+    left: 0;
+    bottom: auto;
+    text-align: left; /* In RTL, this aligns the pagination to the left (visually the "end") */
+}
+
+/* Ensure the wrapper reserves space for the pagination */
+.dataTables_wrapper {
+    padding-bottom: 5px;
+}
+
+/* Also add spacing to the bottom row of the data table */
+.maincontentinner .dataTables_wrapper .bottom,
+.dataTables_wrapper .bottom {
+    margin-top: 5px;
+    min-height: 5px;
+}
+
+/* Space below the table itself before pagination */
+.maincontentinner .dataTable,
+.maincontentinner .table.dataTable {
+    margin-bottom: 5px;
+}
+
+/* If the pagination is inside .bottom, ensure proper spacing */
+.dataTables_wrapper > .bottom + .dataTables_paginate {
+    margin-top: 5px;
+}
+
+/* Make sure the "Previous / Next" buttons don't clip */
+.dataTables_paginate .paginate_button,
+.dataTables_paginate span .paginate_button {
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 0 2px;
+    line-height: 1.4;
+}
+
+/* RTL: current page indicator */
+.dataTables_paginate .paginate_button.current {
+    font-weight: bold;
+}
+
+/* ============================================================
+   Mobile: Tab Actions — Keep "New" button visible
+   ============================================================ */
+
+/* On mobile, stack the actions vertically and give the "New" button
+   priority at the top of the stack, so it never gets pushed out. */
+@media (max-width: 767px) {
+
+    /* The tab group wraps its items */
+    .lt-tabs {
+        flex-wrap: wrap;
+    }
+
+    /* The tabs group takes full width on top */
+    .lt-tabs-group {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: 8px;
+    }
+
+    /* The actions cluster flows below the tabs as a wrapping row */
+    .lt-tabs-actions {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 6px;
+        padding: 0;
+    }
+
+    /* Every direct child of actions gets room and can wrap */
+    .lt-tabs-actions > * {
+        flex: 0 1 auto;
+        min-width: 0;
+    }
+
+    /* The "New" button group takes priority — keep it visible first */
+    .lt-tabs-actions > .btn-group.pull-left {
+        order: 1;
+        flex: 0 0 auto;
+        float: none !important;
+        margin-right: 0 !important;
+    }
+
+    /* Filter / Group By / Search come after */
+    .lt-tabs-actions > form {
+        order: 2;
+        flex: 1 1 auto;
+        width: 100%;
+        margin: 0;
+    }
+
+    /* The filterWrapper inside the form wraps and stays compact */
+    .lt-tabs-actions .filterWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 0 !important;
+        vertical-align: top !important;
+    }
+
+    /* Filter and Group-By buttons stay on one row */
+    .lt-tabs-actions .filterWrapper > a.btn,
+    .lt-tabs-actions .filterWrapper > .btn-group {
+        flex: 0 0 auto;
+    }
+
+    /* The filter bar (dropdown panel) should not exceed viewport width */
+    .lt-tabs-actions .filterBar {
+        position: static !important;
+        width: 100% !important;
+        max-width: 100%;
+        margin-top: 8px;
+        left: 0 !important;
+        right: 0 !important;
+    }
+
+    /* The search input inside the filter bar fits the screen */
+    .lt-tabs-actions .filterBar input[type="text"],
+    .lt-tabs-actions .filterBar select {
+        width: 100% !important;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* The "New" button should keep its normal size and be tappable */
+    .lt-tabs-actions .btn-group .btn-primary {
+        font-size: 13px;
+        padding: 8px 14px;
+        white-space: nowrap;
+    }
+
+    /* Make sure the dropdown menu of "New" opens below the button,
+       not overflowing off-screen */
+    .lt-tabs-actions .btn-group .dropdown-menu {
+        left: 0 !important;
+        right: auto !important;
+        min-width: 180px;
+    }
+
+    /* Tab links themselves wrap nicely */
+    .lt-tabs--links .lt-tabs-group ul {
+        flex-wrap: wrap;
+    }
+
+    .lt-tabs--links .lt-tabs-group li a {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+/* ============================================================
+   Mobile: Tab Group — Fit to Content + Right-Aligned
+   ------------------------------------------------------------
+   In mobile, the tab group should NOT stretch to full width.
+   It should shrink-wrap to its tabs (like desktop), stay
+   right-aligned in RTL, and its <ul> items should flow RTL.
+   ============================================================ */
+
+@media (max-width: 767px) {
+
+    /* The tab group container shrinks to fit its tabs */
+    .lt-tabs-group {
+        width: fit-content !important;
+        max-width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: 8px;
+        /* Keep the group aligned to the start (right in RTL) */
+        align-self: flex-start;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* The inner <ul> flows RTL and aligns items to the right */
+    .lt-tabs-group ul,
+    .lt-tabs--links .lt-tabs-group ul {
+        display: inline-flex !important;
+        flex-direction: row !important; /* Explicit — don't let RTL reverse wrongly */
+        flex-wrap: wrap;
+        justify-content: flex-start; /* In RTL, "start" is the right side */
+        direction: rtl;
+        margin: 0;
+        padding: 0;
+        gap: 2px;
+    }
+
+    /* Each <li> stays inline and flows RTL */
+    .lt-tabs-group ul li,
+    .lt-tabs--links .lt-tabs-group li {
+        display: inline-flex;
+        float: none;
+        margin: 0;
+    }
+
+    /* The tab links — ensure text and icon are RTL */
+    .lt-tabs-group ul li a,
+    .lt-tabs--links .lt-tabs-group li a {
+        direction: rtl;
+        text-align: right;
+        padding: 6px 12px;
+        font-size: 12.5px;
+    }
+
+    /* Force the parent .lt-tabs to align the group to the right */
+    .lt-tabs {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    /* The actions row still takes full width below the tabs */
+    .lt-tabs-actions {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* For very small screens, shrink padding further */
+@media (max-width: 400px) {
+    .lt-tabs-group ul li a,
+    .lt-tabs--links .lt-tabs-group li a {
+        padding: 5px 10px;
+        font-size: 11.5px;
+    }
+}
+
+/* ============================================================
+   Widget Header Actions (Group By + Filter) — Move to LEFT in RTL
+   ------------------------------------------------------------
+   The wrapper `.clear` has an inline `position:absolute; right:35px;`
+   which pins the two dropdown buttons to the RIGHT edge. In RTL
+   they should be at the LEFT edge so they sit in the natural
+   "end" position and don't collide with the title on the right.
+   ============================================================ */
+
+/* 1) The wrapper — move it to the LEFT */
+#yourToDoContainer > .clear[style*="position:absolute"],
+.stickyHeader + .clearall + .widgetContent .clear[style*="position:absolute"] {
+    right: auto !important;
+    left: 35px !important;
+    top: 10px !important;
+    /* Reset any inherited float */
+    float: none !important;
+    /* Ensure it sits above other content */
+    z-index: 10;
+}
+
+/* 2) The button groups inside — flow RTL correctly */
+#yourToDoContainer .clear .btn-group.left,
+.widgetContent .clear .btn-group.left {
+    float: right !important;
+    margin-left: 0 !important;
+    margin-right: 4px !important;
+}
+
+/* 3) The dropdown toggle buttons — remove f-right float in RTL */
+#yourToDoContainer .clear .btn-group .dropdown-toggle.f-right,
+.widgetContent .clear .btn-group .dropdown-toggle.f-right {
+    float: none !important;
+    display: inline-block !important;
+}
+
+/* 4) The dropdown menus — open to the LEFT in RTL */
+#yourToDoContainer .clear .btn-group .dropdown-menu,
+.widgetContent .clear .btn-group .dropdown-menu {
+    right: auto !important;
+    left: 0 !important;
+    text-align: right;
+}
+
+/* 5) The dropdown arrow — point to the right (toward the trigger) */
+#yourToDoContainer .clear .btn-group .dropdown-menu::after,
+.widgetContent .clear .btn-group .dropdown-menu::after {
+    left: auto !important;
+    right: 10px !important;
+}
+
+/* 6) The `.clear` class inside the widget content should not
+      try to clear floats (it has absolute positioning). */
+#yourToDoContainer > .clear,
+.widgetContent .clear {
+    clear: none !important;
+}

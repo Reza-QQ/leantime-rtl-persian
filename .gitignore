@@ -77,3 +77,9 @@ yarn-error.log
 
 # --- Database & Docker ---
 .docker/flarepoint-db/*
+
+# Ignore specific font folders
+public/dist/fonts/eot/
+public/dist/fonts/ttf/
+public/dist/fonts/woff/
+public/dist/fonts/woff2/
