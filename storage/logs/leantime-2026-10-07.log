@@ -1,0 +1,1462 @@
+[2026-10-07 00:44:23] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:44:22 Running [queue:emails] ................................. 16.70ms DONE
+
+  
+[2026-10-07 00:44:29] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:44:29 Running [queue:emails] .................................. 9.81ms DONE
+
+  
+[2026-10-07 00:44:39] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:44:39 Running [queue:emails] ................................. 11.35ms DONE
+
+  
+[2026-10-07 00:45:26] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:45:26 Running [queue:emails] ................................. 11.28ms DONE
+  2026-10-07 00:45:26 Running [queue:httprequests] ............................ 1.55ms DONE
+  2026-10-07 00:45:26 Running [queue:default] ................................. 0.86ms DONE
+
+  
+[2026-10-07 00:45:32] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:45:32 Running [queue:emails] ................................. 10.92ms DONE
+  2026-10-07 00:45:32 Running [queue:httprequests] ............................ 0.94ms DONE
+  2026-10-07 00:45:32 Running [queue:default] ................................. 0.68ms DONE
+
+  
+[2026-10-07 00:45:35] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:45:35 Running [queue:emails] .................................. 9.47ms DONE
+  2026-10-07 00:45:35 Running [queue:httprequests] ............................ 0.91ms DONE
+  2026-10-07 00:45:35 Running [queue:default] ................................. 0.71ms DONE
+
+  
+[2026-10-07 00:45:45] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:45:45 Running [queue:emails] .................................. 9.78ms DONE
+  2026-10-07 00:45:45 Running [queue:httprequests] ............................ 0.93ms DONE
+  2026-10-07 00:45:45 Running [queue:default] ................................. 0.71ms DONE
+
+  
+[2026-10-07 00:45:46] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:45:46 Running [queue:emails] ................................. 11.01ms DONE
+  2026-10-07 00:45:46 Running [queue:httprequests] ............................ 0.90ms DONE
+  2026-10-07 00:45:46 Running [queue:default] ................................. 0.75ms DONE
+
+  
+[2026-10-07 00:45:52] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:45:52 Running [queue:emails] .................................. 9.92ms DONE
+  2026-10-07 00:45:52 Running [queue:httprequests] ............................ 0.94ms DONE
+  2026-10-07 00:45:52 Running [queue:default] ................................. 0.75ms DONE
+
+  
+[2026-10-07 00:45:53] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:45:53 Running [queue:emails] ................................. 10.47ms DONE
+  2026-10-07 00:45:53 Running [queue:httprequests] ............................ 1.12ms DONE
+  2026-10-07 00:45:53 Running [queue:default] ................................. 0.95ms DONE
+
+  
+[2026-10-07 00:46:10] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:46:10 Running [queue:emails] ................................. 10.63ms DONE
+
+  
+[2026-10-07 00:46:17] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:46:17 Running [queue:emails] ................................. 10.88ms DONE
+
+  
+[2026-10-07 00:46:30] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:46:30 Running [queue:emails] .................................. 9.48ms DONE
+
+  
+[2026-10-07 00:46:33] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:46:33 Running [queue:emails] ................................. 11.01ms DONE
+
+  
+[2026-10-07 00:46:36] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:46:36 Running [queue:emails] ................................. 11.32ms DONE
+
+  
+[2026-10-07 00:46:43] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:46:43 Running [queue:emails] .................................. 9.47ms DONE
+
+  
+[2026-10-07 00:46:55] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:46:55 Running [queue:emails] ................................. 10.99ms DONE
+
+  
+[2026-10-07 00:46:58] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:46:58 Running [queue:emails] ................................. 11.25ms DONE
+
+  
+[2026-10-07 00:47:02] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:47:02 Running [queue:emails] .................................. 9.57ms DONE
+
+  
+[2026-10-07 00:47:05] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:47:05 Running [queue:emails] .................................. 9.95ms DONE
+
+  
+[2026-10-07 00:47:10] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:47:10 Running [queue:emails] .................................. 9.38ms DONE
+
+  
+[2026-10-07 00:47:14] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:47:14 Running [queue:emails] ................................. 11.07ms DONE
+
+  
+[2026-10-07 00:47:17] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:47:17 Running [queue:emails] ................................. 13.66ms DONE
+
+  
+[2026-10-07 00:47:29] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:47:29 Running [queue:emails] ................................. 10.65ms DONE
+
+  
+[2026-10-07 00:47:32] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:47:32 Running [queue:emails] ................................. 10.68ms DONE
+
+  
+[2026-10-07 00:47:35] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:47:35 Running [queue:emails] ................................. 10.60ms DONE
+
+  
+[2026-10-07 00:47:39] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:47:39 Running [queue:emails] .................................. 9.62ms DONE
+
+  
+[2026-10-07 00:47:43] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:47:43 Running [queue:emails] ................................. 12.06ms DONE
+
+  
+[2026-10-07 00:47:44] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:47:44 Running [queue:emails] .................................. 9.65ms DONE
+
+  
+[2026-10-07 00:47:47] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:47:47 Running [queue:emails] .................................. 9.17ms DONE
+
+  
+[2026-10-07 00:47:53] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:47:53 Running [queue:emails] ................................. 10.68ms DONE
+
+  
+[2026-10-07 00:47:57] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:47:57 Running [queue:emails] ................................. 10.50ms DONE
+
+  
+[2026-10-07 00:48:13] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:48:13 Running [queue:emails] .................................. 9.43ms DONE
+
+  
+[2026-10-07 00:49:45] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:49:45 Running [queue:emails] ................................. 10.71ms DONE
+
+  
+[2026-10-07 00:50:02] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:50:02 Running [queue:emails] ................................. 10.48ms DONE
+  2026-10-07 00:50:02 Running [queue:httprequests] ............................ 0.96ms DONE
+  2026-10-07 00:50:02 Running [queue:default] ................................. 0.69ms DONE
+
+  
+[2026-10-07 00:50:16] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:50:16 Running [queue:emails] .................................. 9.93ms DONE
+  2026-10-07 00:50:16 Running [queue:httprequests] ............................ 0.95ms DONE
+  2026-10-07 00:50:16 Running [queue:default] ................................. 0.68ms DONE
+
+  
+[2026-10-07 00:50:25] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:50:25 Running [queue:emails] ................................. 11.45ms DONE
+  2026-10-07 00:50:25 Running [queue:httprequests] ............................ 0.88ms DONE
+  2026-10-07 00:50:25 Running [queue:default] ................................. 0.59ms DONE
+
+  
+[2026-10-07 00:50:33] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:50:33 Running [queue:emails] ................................. 13.91ms DONE
+  2026-10-07 00:50:33 Running [queue:httprequests] ............................ 0.92ms DONE
+  2026-10-07 00:50:33 Running [queue:default] ................................. 0.72ms DONE
+
+  
+[2026-10-07 00:50:36] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:50:36 Running [queue:emails] .................................. 9.34ms DONE
+  2026-10-07 00:50:36 Running [queue:httprequests] ............................ 1.20ms DONE
+  2026-10-07 00:50:36 Running [queue:default] ................................. 1.92ms DONE
+
+  
+[2026-10-07 00:50:42] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:50:42 Running [queue:emails] ................................. 11.37ms DONE
+  2026-10-07 00:50:42 Running [queue:httprequests] ............................ 0.91ms DONE
+  2026-10-07 00:50:42 Running [queue:default] ................................. 0.71ms DONE
+
+  
+[2026-10-07 00:50:51] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:50:51 Running [queue:emails] ................................. 14.77ms DONE
+  2026-10-07 00:50:51 Running [queue:httprequests] ............................ 1.30ms DONE
+  2026-10-07 00:50:51 Running [queue:default] ................................. 0.97ms DONE
+
+  
+[2026-10-07 00:50:59] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:50:59 Running [queue:emails] ................................. 10.01ms DONE
+  2026-10-07 00:50:59 Running [queue:httprequests] ............................ 0.84ms DONE
+  2026-10-07 00:50:59 Running [queue:default] ................................. 0.60ms DONE
+
+  
+[2026-10-07 00:52:07] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:52:07 Running [queue:emails] ................................. 11.29ms DONE
+
+  
+[2026-10-07 00:52:19] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:52:19 Running [queue:emails] ................................. 10.16ms DONE
+
+  
+[2026-10-07 00:52:32] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:52:32 Running [queue:emails] .................................. 9.42ms DONE
+
+  
+[2026-10-07 00:52:37] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:52:37 Running [queue:emails] ................................. 14.11ms DONE
+
+  
+[2026-10-07 00:52:40] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:52:40 Running [queue:emails] ................................. 10.80ms DONE
+
+  
+[2026-10-07 00:52:43] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:52:43 Running [queue:emails] ................................. 11.30ms DONE
+
+  
+[2026-10-07 00:57:44] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:57:44 Running [queue:emails] ................................. 11.40ms DONE
+
+  
+[2026-10-07 00:59:11] production.INFO: Cron Schedule Output: 
+  2026-10-07 00:59:11 Running [queue:emails] .................................. 9.35ms DONE
+
+  
+[2026-10-07 01:00:43] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:00:43 Running [queue:emails] .................................. 9.53ms DONE
+  2026-10-07 01:00:43 Running [queue:httprequests] ............................ 3.81ms DONE
+  2026-10-07 01:00:43 Running [queue:default] ................................. 1.80ms DONE
+
+  
+[2026-10-07 01:05:26] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:05:26 Running [queue:emails] ................................. 13.27ms DONE
+  2026-10-07 01:05:26 Running [queue:httprequests] ............................ 1.11ms DONE
+  2026-10-07 01:05:26 Running [queue:default] ................................. 0.86ms DONE
+
+  
+[2026-10-07 01:06:01] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:06:01 Running [queue:emails] .................................. 9.03ms DONE
+
+  
+[2026-10-07 01:06:05] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:06:05 Running [queue:emails] ................................. 10.91ms DONE
+
+  
+[2026-10-07 01:06:26] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:06:26 Running [queue:emails] ................................. 10.15ms DONE
+
+  
+[2026-10-07 01:11:26] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:11:26 Running [queue:emails] .................................. 8.84ms DONE
+
+  
+[2026-10-07 01:16:26] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:16:26 Running [queue:emails] ................................. 10.99ms DONE
+
+  
+[2026-10-07 01:16:45] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:16:45 Running [queue:emails] ................................. 12.63ms DONE
+
+  
+[2026-10-07 01:16:47] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:16:47 Running [queue:emails] ................................. 23.16ms DONE
+
+  
+[2026-10-07 01:16:51] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:16:51 Running [queue:emails] ................................. 13.21ms DONE
+
+  
+[2026-10-07 01:20:40] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:20:40 Running [queue:emails] .................................. 8.92ms DONE
+  2026-10-07 01:20:40 Running [queue:httprequests] ............................ 0.81ms DONE
+  2026-10-07 01:20:40 Running [queue:default] ................................. 0.60ms DONE
+
+  
+[2026-10-07 01:20:48] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:20:48 Running [queue:emails] ................................. 10.32ms DONE
+  2026-10-07 01:20:48 Running [queue:httprequests] ............................ 1.13ms DONE
+  2026-10-07 01:20:48 Running [queue:default] ................................. 0.66ms DONE
+
+  
+[2026-10-07 01:20:55] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:20:55 Running [queue:emails] ................................. 11.54ms DONE
+  2026-10-07 01:20:55 Running [queue:httprequests] ............................ 1.03ms DONE
+  2026-10-07 01:20:55 Running [queue:default] ................................. 0.79ms DONE
+
+  
+[2026-10-07 01:21:02] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:21:02 Running [queue:emails] ................................. 12.58ms DONE
+
+  
+[2026-10-07 01:21:26] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:21:26 Running [queue:emails] ................................. 10.79ms DONE
+
+  
+[2026-10-07 01:21:33] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:21:33 Running [queue:emails] .................................. 9.70ms DONE
+
+  
+[2026-10-07 01:21:40] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:21:40 Running [queue:emails] .................................. 8.81ms DONE
+
+  
+[2026-10-07 01:22:04] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:22:04 Running [queue:emails] .................................. 9.30ms DONE
+
+  
+[2026-10-07 01:22:14] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:22:14 Running [queue:emails] .................................. 9.82ms DONE
+
+  
+[2026-10-07 01:22:18] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:22:18 Running [queue:emails] .................................. 9.34ms DONE
+
+  
+[2026-10-07 01:22:21] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:22:21 Running [queue:emails] ................................. 11.13ms DONE
+
+  
+[2026-10-07 01:22:27] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:22:27 Running [queue:emails] ................................. 11.11ms DONE
+
+  
+[2026-10-07 01:22:44] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:22:43 Running [queue:emails] ................................. 11.05ms DONE
+
+  
+[2026-10-07 01:22:48] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:22:48 Running [queue:emails] ................................. 11.37ms DONE
+
+  
+[2026-10-07 01:22:57] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:22:57 Running [queue:emails] ................................. 11.46ms DONE
+
+  
+[2026-10-07 01:22:58] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:22:58 Running [queue:emails] .................................. 9.60ms DONE
+
+  
+[2026-10-07 01:23:06] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:23:06 Running [queue:emails] .................................. 9.61ms DONE
+
+  
+[2026-10-07 01:23:11] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:23:11 Running [queue:emails] ................................. 10.86ms DONE
+
+  
+[2026-10-07 01:23:14] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:23:14 Running [queue:emails] .................................. 9.23ms DONE
+
+  
+[2026-10-07 01:23:16] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:23:16 Running [queue:emails] .................................. 9.93ms DONE
+
+  
+[2026-10-07 01:24:26] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:24:26 Running [queue:emails] ................................. 11.30ms DONE
+
+  
+[2026-10-07 01:24:31] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:24:31 Running [queue:emails] .................................. 9.63ms DONE
+
+  
+[2026-10-07 01:29:22] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:29:22 Running [queue:emails] ................................. 11.51ms DONE
+
+  
+[2026-10-07 01:29:31] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:29:31 Running [queue:emails] ................................. 11.74ms DONE
+
+  
+[2026-10-07 01:29:47] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:29:47 Running [queue:emails] ................................. 11.01ms DONE
+
+  
+[2026-10-07 01:30:14] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:30:14 Running [queue:emails] ................................. 18.60ms DONE
+  2026-10-07 01:30:14 Running [queue:httprequests] ............................ 1.16ms DONE
+  2026-10-07 01:30:14 Running [queue:default] ................................. 0.88ms DONE
+
+  
+[2026-10-07 01:30:33] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:30:33 Running [queue:emails] .................................. 9.33ms DONE
+  2026-10-07 01:30:33 Running [queue:httprequests] ............................ 0.88ms DONE
+  2026-10-07 01:30:33 Running [queue:default] ................................. 3.05ms DONE
+
+  
+[2026-10-07 01:30:53] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:30:53 Running [queue:emails] .................................. 9.47ms DONE
+  2026-10-07 01:30:53 Running [queue:httprequests] ............................ 0.94ms DONE
+  2026-10-07 01:30:53 Running [queue:default] ................................. 2.94ms DONE
+
+  
+[2026-10-07 01:31:31] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:31:31 Running [queue:emails] .................................. 9.72ms DONE
+
+  
+[2026-10-07 01:32:11] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:32:11 Running [queue:emails] .................................. 9.64ms DONE
+
+  
+[2026-10-07 01:34:32] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:34:32 Running [queue:emails] ................................. 17.53ms DONE
+
+  
+[2026-10-07 01:39:31] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:39:31 Running [queue:emails] ................................. 10.24ms DONE
+
+  
+[2026-10-07 01:43:39] production.ERROR: mkdir(): File exists {"exception":"[object] (ErrorException(code: 0): mkdir(): File exists at C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Support\\Avatarcreator.php:80)
+[stacktrace]
+#0 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(256): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'mkdir(): File e...', 'C:\\\\laragon\\\\www\\\\...', 80)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->{closure:Illuminate\\Foundation\\Bootstrap\\HandleExceptions::forwardsTo():255}(2, 'mkdir(): File e...', 'C:\\\\laragon\\\\www\\\\...', 80)
+#2 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Support\\Avatarcreator.php(80): mkdir('C:\\\\laragon\\\\www\\\\...')
+#3 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Support\\Avatarcreator.php(72): Leantime\\Core\\Support\\Avatarcreator->saveAvatar()
+#4 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Users\\Services\\Users.php(87): Leantime\\Core\\Support\\Avatarcreator->getAvatar('\\xD9\\x85\\xD8\\xAD\\xD9\\x85\\xD8\\xAF\\xD8\\xB1\\xD8\\xB6\\xD8\\xA7 ')
+#5 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Users\\Controllers\\ProfileImage.php(37): Leantime\\Domain\\Users\\Services\\Users->getProfilePicture('1')
+#6 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(47): Leantime\\Domain\\Users\\Controllers\\ProfileImage->show(Object(Leantime\\Core\\Http\\IncomingRequest), '1')
+#7 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(266): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(Leantime\\Domain\\Users\\Controllers\\ProfileImage), 'show')
+#8 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(212): Illuminate\\Routing\\Route->runController()
+#9 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(808): Illuminate\\Routing\\Route->run()
+#10 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Routing\\Router->{closure:Illuminate\\Routing\\Router::runRouteWithinStack():807}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#11 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Auth\\Permissions\\CheckPermissions.php(38): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#12 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Auth\\Permissions\\CheckPermissions->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#13 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#14 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#15 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Leantime\\Core\\Http\\IncomingRequest))
+#16 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Illuminate\\Routing\\Route))
+#17 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Leantime\\Core\\Http\\IncomingRequest))
+#18 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Http\\HttpKernel.php(205): Illuminate\\Routing\\Router->dispatch(Object(Leantime\\Core\\Http\\IncomingRequest))
+#19 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Http\\HttpKernel.php(173): Leantime\\Core\\Http\\HttpKernel->findAndDispatchToRouter(Object(Leantime\\Core\\Http\\IncomingRequest))
+#20 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Leantime\\Core\\Http\\HttpKernel->{closure:{closure:Leantime\\Core\\Http\\HttpKernel::sendRequestThroughRouter():164}:173}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#21 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#22 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Http\\HttpKernel.php(173): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#23 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Leantime\\Core\\Http\\HttpKernel->{closure:Leantime\\Core\\Http\\HttpKernel::sendRequestThroughRouter():164}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#24 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Projects\\Middleware\\CurrentProject.php(41): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#25 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Domain\\Projects\\Middleware\\CurrentProject->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#26 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\Localization.php(46): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#27 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\Localization->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#28 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\SetCacheHeaders.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#29 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\SetCacheHeaders->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#30 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#31 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#32 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#33 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#34 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#35 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#36 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#37 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#38 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#39 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#40 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\RequestRateLimiter.php(75): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#41 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\RequestRateLimiter->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#42 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\AuthenticateSession.php(34): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#43 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\AuthenticateSession->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#44 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\AuthCheck.php(90): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#45 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\AuthCheck->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#46 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\InitialHeaders.php(24): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#47 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\InitialHeaders->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#48 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\LoadPlugins.php(32): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#49 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\LoadPlugins->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#50 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\Updated.php(63): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#51 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\Updated->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#52 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\Installed.php(67): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#53 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\Installed->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#54 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\StartSession.php(134): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#55 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\StartSession.php(83): Leantime\\Core\\Middleware\\StartSession->handleOptimisticRequest(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Illuminate\\Session\\Store), Object(Closure))
+#56 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\StartSession->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#57 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\TrustProxies.php(65): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#58 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\TrustProxies->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#59 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#60 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Http\\HttpKernel.php(164): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#61 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Http\\HttpKernel.php(121): Leantime\\Core\\Http\\HttpKernel->sendRequestThroughRouter(Object(Leantime\\Core\\Http\\IncomingRequest))
+#62 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Bootloader.php(79): Leantime\\Core\\Http\\HttpKernel->handle(Object(Leantime\\Core\\Http\\IncomingRequest))
+#63 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Bootloader.php(60): Leantime\\Core\\Bootloader->handleRequest(Object(Leantime\\Core\\Http\\IncomingRequest))
+#64 C:\\laragon\\www\\dentvira\\public\\leantime\\public\\index.php(20): Leantime\\Core\\Bootloader->boot(Object(Leantime\\Core\\Application))
+#65 {main}
+"} 
+[2026-10-07 01:43:40] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:43:40 Running [queue:emails] ................................. 14.11ms DONE
+
+  
+[2026-10-07 01:45:10] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:45:10 Running [queue:emails] ................................. 13.67ms DONE
+  2026-10-07 01:45:10 Running [queue:httprequests] ............................ 1.16ms DONE
+  2026-10-07 01:45:10 Running [queue:default] ................................. 0.88ms DONE
+
+  
+[2026-10-07 01:48:01] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:48:01 Running [queue:emails] .................................. 9.94ms DONE
+
+  
+[2026-10-07 01:49:19] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:49:19 Running [queue:emails] ................................. 20.23ms DONE
+
+  
+[2026-10-07 01:49:44] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:49:44 Running [queue:emails] .................................. 9.99ms DONE
+
+  
+[2026-10-07 01:50:07] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:50:07 Running [queue:emails] ................................. 10.26ms DONE
+  2026-10-07 01:50:07 Running [queue:httprequests] ............................ 0.92ms DONE
+  2026-10-07 01:50:07 Running [queue:default] ................................. 0.71ms DONE
+
+  
+[2026-10-07 01:50:12] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:50:12 Running [queue:emails] ................................. 10.94ms DONE
+  2026-10-07 01:50:12 Running [queue:httprequests] ............................ 0.87ms DONE
+  2026-10-07 01:50:12 Running [queue:default] ................................. 0.65ms DONE
+
+  
+[2026-10-07 01:50:17] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:50:17 Running [queue:emails] ................................. 12.78ms DONE
+  2026-10-07 01:50:17 Running [queue:httprequests] ............................ 0.89ms DONE
+  2026-10-07 01:50:17 Running [queue:default] ................................. 0.73ms DONE
+
+  
+[2026-10-07 01:55:17] production.INFO: Cron Schedule Output: 
+  2026-10-07 01:55:17 Running [queue:emails] .................................. 8.88ms DONE
+  2026-10-07 01:55:17 Running [queue:httprequests] ............................ 0.89ms DONE
+  2026-10-07 01:55:17 Running [queue:default] ................................. 0.76ms DONE
+
+  
+[2026-10-07 02:00:17] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:00:17 Running [queue:emails] ................................. 10.12ms DONE
+  2026-10-07 02:00:17 Running [queue:httprequests] ............................ 0.95ms DONE
+  2026-10-07 02:00:17 Running [queue:default] ................................. 1.06ms DONE
+
+  
+[2026-10-07 02:01:09] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:01:08 Running [queue:emails] .................................. 9.33ms DONE
+
+  
+[2026-10-07 02:01:21] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:01:21 Running [queue:emails] .................................. 9.43ms DONE
+
+  
+[2026-10-07 02:01:28] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:01:28 Running [queue:emails] ................................. 11.05ms DONE
+
+  
+[2026-10-07 02:01:51] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:01:51 Running [queue:emails] ................................. 10.94ms DONE
+
+  
+[2026-10-07 02:02:04] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:02:04 Running [queue:emails] ................................. 10.73ms DONE
+
+  
+[2026-10-07 02:02:15] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:02:15 Running [queue:emails] .................................. 9.23ms DONE
+
+  
+[2026-10-07 02:02:20] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:02:20 Running [queue:emails] .................................. 9.13ms DONE
+
+  
+[2026-10-07 02:02:34] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:02:34 Running [queue:emails] ................................. 10.94ms DONE
+
+  
+[2026-10-07 02:02:40] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:02:40 Running [queue:emails] ................................. 10.73ms DONE
+
+  
+[2026-10-07 02:02:44] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:02:44 Running [queue:emails] ................................. 10.30ms DONE
+
+  
+[2026-10-07 02:02:48] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:02:48 Running [queue:emails] ................................. 10.20ms DONE
+
+  
+[2026-10-07 02:03:11] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:03:11 Running [queue:emails] ................................. 10.31ms DONE
+
+  
+[2026-10-07 02:03:32] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:03:32 Running [queue:emails] ................................. 14.46ms DONE
+
+  
+[2026-10-07 02:03:51] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:03:51 Running [queue:emails] ................................. 12.34ms DONE
+
+  
+[2026-10-07 02:04:14] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:04:14 Running [queue:emails] .................................. 9.43ms DONE
+
+  
+[2026-10-07 02:04:17] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:04:17 Running [queue:emails] ................................. 11.33ms DONE
+
+  
+[2026-10-07 02:04:44] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:04:44 Running [queue:emails] ................................. 25.82ms DONE
+
+  
+[2026-10-07 02:04:45] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:04:45 Running [queue:emails] ................................. 10.47ms DONE
+
+  
+[2026-10-07 02:05:26] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:05:26 Running [queue:emails] ................................. 10.35ms DONE
+  2026-10-07 02:05:26 Running [queue:httprequests] ............................ 0.88ms DONE
+  2026-10-07 02:05:26 Running [queue:default] ................................. 0.65ms DONE
+
+  
+[2026-10-07 02:05:36] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:05:36 Running [queue:emails] ................................. 10.08ms DONE
+  2026-10-07 02:05:36 Running [queue:httprequests] ............................ 0.80ms DONE
+  2026-10-07 02:05:36 Running [queue:default] ................................. 0.60ms DONE
+
+  
+[2026-10-07 02:05:48] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:05:48 Running [queue:emails] .................................. 9.63ms DONE
+  2026-10-07 02:05:48 Running [queue:httprequests] ............................ 1.04ms DONE
+  2026-10-07 02:05:48 Running [queue:default] ................................. 0.72ms DONE
+
+  
+[2026-10-07 02:05:52] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:05:52 Running [queue:emails] .................................. 9.37ms DONE
+  2026-10-07 02:05:52 Running [queue:httprequests] ............................ 0.88ms DONE
+  2026-10-07 02:05:52 Running [queue:default] ................................. 0.65ms DONE
+
+  
+[2026-10-07 02:05:55] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:05:55 Running [queue:emails] .................................. 9.38ms DONE
+  2026-10-07 02:05:55 Running [queue:httprequests] ............................ 2.00ms DONE
+  2026-10-07 02:05:55 Running [queue:default] ................................. 1.46ms DONE
+
+  
+[2026-10-07 02:06:03] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:06:03 Running [queue:emails] ................................. 11.12ms DONE
+
+  
+[2026-10-07 02:06:09] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:06:09 Running [queue:emails] ................................. 10.16ms DONE
+
+  
+[2026-10-07 02:06:13] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:06:13 Running [queue:emails] .................................. 9.88ms DONE
+
+  
+[2026-10-07 02:06:20] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:06:20 Running [queue:emails] .................................. 9.15ms DONE
+
+  
+[2026-10-07 02:06:22] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:06:22 Running [queue:emails] ................................. 10.44ms DONE
+
+  
+[2026-10-07 02:06:30] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:06:30 Running [queue:emails] ................................. 10.83ms DONE
+
+  
+[2026-10-07 02:07:45] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:07:45 Running [queue:emails] ................................. 15.63ms DONE
+
+  
+[2026-10-07 02:08:07] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:08:07 Running [queue:emails] ................................. 10.18ms DONE
+
+  
+[2026-10-07 02:08:17] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:08:17 Running [queue:emails] .................................. 9.36ms DONE
+
+  
+[2026-10-07 02:08:43] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:08:43 Running [queue:emails] .................................. 9.97ms DONE
+
+  
+[2026-10-07 02:11:38] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:11:38 Running [queue:emails] ................................. 11.17ms DONE
+
+  
+[2026-10-07 02:11:41] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:11:41 Running [queue:emails] .................................. 9.62ms DONE
+
+  
+[2026-10-07 02:12:17] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:12:17 Running [queue:emails] ................................. 19.88ms DONE
+
+  
+[2026-10-07 02:13:19] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:13:19 Running [queue:emails] .................................. 9.55ms DONE
+
+  
+[2026-10-07 02:13:44] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:13:44 Running [queue:emails] ................................. 11.05ms DONE
+
+  
+[2026-10-07 02:14:14] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:14:14 Running [queue:emails] ................................. 35.36ms DONE
+
+  
+[2026-10-07 02:15:24] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:15:24 Running [queue:emails] ................................. 15.28ms DONE
+  2026-10-07 02:15:24 Running [queue:httprequests] ............................ 1.42ms DONE
+  2026-10-07 02:15:24 Running [queue:default] ................................. 1.81ms DONE
+
+  
+[2026-10-07 02:16:06] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:16:06 Running [queue:emails] .................................. 9.43ms DONE
+
+  
+[2026-10-07 02:16:08] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:16:08 Running [queue:emails] ................................. 10.47ms DONE
+
+  
+[2026-10-07 02:17:39] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:17:39 Running [queue:emails] .................................. 9.43ms DONE
+
+  
+[2026-10-07 02:18:14] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:18:14 Running [queue:emails] .................................. 9.32ms DONE
+
+  
+[2026-10-07 02:18:20] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:18:20 Running [queue:emails] ................................. 10.46ms DONE
+
+  
+[2026-10-07 02:18:33] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:18:33 Running [queue:emails] ................................. 11.25ms DONE
+
+  
+[2026-10-07 02:21:15] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:21:15 Running [queue:emails] ................................. 11.46ms DONE
+
+  
+[2026-10-07 02:21:19] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:21:19 Running [queue:emails] ................................. 10.35ms DONE
+
+  
+[2026-10-07 02:21:36] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:21:36 Running [queue:emails] .................................. 9.63ms DONE
+
+  
+[2026-10-07 02:21:42] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:21:42 Running [queue:emails] .................................. 9.18ms DONE
+
+  
+[2026-10-07 02:21:45] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:21:45 Running [queue:emails] ................................. 10.32ms DONE
+
+  
+[2026-10-07 02:21:51] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:21:51 Running [queue:emails] .................................. 9.41ms DONE
+
+  
+[2026-10-07 02:21:53] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:21:52 Running [queue:emails] ................................. 10.50ms DONE
+
+  
+[2026-10-07 02:21:58] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:21:58 Running [queue:emails] ................................. 12.25ms DONE
+
+  
+[2026-10-07 02:22:06] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:22:06 Running [queue:emails] .................................. 9.50ms DONE
+
+  
+[2026-10-07 02:22:28] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:22:28 Running [queue:emails] .................................. 9.32ms DONE
+
+  
+[2026-10-07 02:22:35] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:22:35 Running [queue:emails] ................................. 10.69ms DONE
+
+  
+[2026-10-07 02:23:36] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:23:36 Running [queue:emails] ................................. 11.54ms DONE
+
+  
+[2026-10-07 02:23:39] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:23:39 Running [queue:emails] ................................. 17.25ms DONE
+
+  
+[2026-10-07 02:23:48] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:23:48 Running [queue:emails] ................................. 10.25ms DONE
+
+  
+[2026-10-07 02:24:08] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:24:08 Running [queue:emails] ................................. 10.23ms DONE
+
+  
+[2026-10-07 02:24:12] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:24:12 Running [queue:emails] .................................. 9.16ms DONE
+
+  
+[2026-10-07 02:25:35] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:25:35 Running [queue:emails] ................................. 21.84ms DONE
+  2026-10-07 02:25:35 Running [queue:httprequests] ............................ 2.21ms DONE
+  2026-10-07 02:25:35 Running [queue:default] ................................. 1.87ms DONE
+
+  
+[2026-10-07 02:25:39] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:25:39 Running [queue:emails] .................................. 9.32ms DONE
+  2026-10-07 02:25:39 Running [queue:httprequests] ............................ 4.08ms DONE
+  2026-10-07 02:25:39 Running [queue:default] ................................. 0.88ms DONE
+
+  
+[2026-10-07 02:25:42] production.ERROR: SQLSTATE[HY000] [1049] Unknown database 'laravel' (Connection: mysql, SQL: select * from `zp_queue` where `channel` = email order by `userId` asc, `projectId` asc, `thedate` asc) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 1049): SQLSTATE[HY000] [1049] Unknown database 'laravel' (Connection: mysql, SQL: select * from `zp_queue` where `channel` = email order by `userId` asc, `projectId` asc, `thedate` asc) at C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:825)
+[stacktrace]
+#0 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(779): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(398): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3106): Illuminate\\Database\\Connection->select('select * from `...', Array, true)
+#3 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3091): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3676): Illuminate\\Database\\Query\\Builder->{closure:Illuminate\\Database\\Query\\Builder::get():3090}()
+#5 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3090): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\Repositories\\Queue.php(73): Illuminate\\Database\\Query\\Builder->get()
+#7 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\Services\\Queue.php(44): Leantime\\Domain\\Queue\\Repositories\\Queue->listMessageInQueue(Leantime\\Domain\\Queue\\Workers\\Workers::EMAILS)
+#8 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\register.php(16): Leantime\\Domain\\Queue\\Services\\Queue->processQueue(Leantime\\Domain\\Queue\\Workers\\Workers::EMAILS)
+#9 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Leantime\\Core\\Events\\EventDispatcher::{closure:{closure:C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\register.php:9}:16}()
+#10 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Closure->__invoke()
+#11 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#12 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#13 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Leantime\\Core\\Application), Array, Object(Closure))
+#14 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Leantime\\Core\\Application), Array, Array, NULL)
+#15 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(118): Illuminate\\Container\\Container->call(Array, Array)
+#16 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(185): Illuminate\\Console\\Scheduling\\CallbackEvent->execute(Object(Leantime\\Core\\Application))
+#17 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(134): Illuminate\\Console\\Scheduling\\Event->start(Object(Leantime\\Core\\Application))
+#18 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(77): Illuminate\\Console\\Scheduling\\Event->run(Object(Leantime\\Core\\Application))
+#19 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(194): Illuminate\\Console\\Scheduling\\CallbackEvent->run(Object(Leantime\\Core\\Application))
+#20 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(40): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->{closure:Illuminate\\Console\\Scheduling\\ScheduleRunCommand::runEvent():188}()
+#21 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Factory.php(60): Illuminate\\Console\\View\\Components\\Task->render('<fg=gray>2026-1...', Object(Closure))
+#22 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(188): Illuminate\\Console\\View\\Components\\Factory->__call('task', Array)
+#23 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(133): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->runEvent(Object(Illuminate\\Console\\Scheduling\\CallbackEvent))
+#24 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->handle(Object(Illuminate\\Console\\Scheduling\\Schedule), Object(Leantime\\Core\\Events\\EventDispatcher), Object(Illuminate\\Cache\\Repository), Object(Leantime\\Core\\Exceptions\\ExceptionHandler))
+#25 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#26 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#27 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Leantime\\Core\\Application), Array, Object(Closure))
+#28 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Leantime\\Core\\Application), Array, Array, NULL)
+#29 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#30 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Command\\Command.php(341): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Illuminate\\Console\\OutputStyle))
+#31 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Illuminate\\Console\\OutputStyle))
+#32 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(1094): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#33 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Console\\Scheduling\\ScheduleRunCommand), Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#34 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Console\\Application.php(70): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#35 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(195): Leantime\\Core\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#36 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(166): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#37 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Console\\ConsoleKernel.php(174): Illuminate\\Console\\Application->call('schedule:run', Array, Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#38 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Cron\\Services\\Cron.php(45): Leantime\\Core\\Console\\ConsoleKernel->call('schedule:run', Array, Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#39 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Cron\\Controllers\\Run.php(37): Leantime\\Domain\\Cron\\Services\\Cron->runScheduledTasks()
+#40 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(707): Leantime\\Domain\\Cron\\Controllers\\Run->{closure:Leantime\\Domain\\Cron\\Controllers\\Run::get():37}(Array)
+#41 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(418): Leantime\\Core\\Events\\EventDispatcher::{closure:Leantime\\Core\\Events\\EventDispatcher::makeListener():702}('leantime.core.h...', Array)
+#42 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(196): Leantime\\Core\\Events\\EventDispatcher::executeHandlers(Array, 'events', 'leantime.core.h...', Array)
+#43 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\DispatchesEvents.php(21): Leantime\\Core\\Events\\EventDispatcher::dispatch_event('leantime.core.h...', Array, 'leantime.core.h...')
+#44 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Http\\HttpKernel.php(182): Leantime\\Core\\Http\\HttpKernel::dispatchEvent('request_termina...', Array)
+#45 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Bootloader.php(82): Leantime\\Core\\Http\\HttpKernel->terminate(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Symfony\\Component\\HttpFoundation\\Response))
+#46 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Bootloader.php(60): Leantime\\Core\\Bootloader->handleRequest(Object(Leantime\\Core\\Http\\IncomingRequest))
+#47 C:\\laragon\\www\\dentvira\\public\\leantime\\public\\index.php(20): Leantime\\Core\\Bootloader->boot(Object(Leantime\\Core\\Application))
+#48 {main}
+
+[previous exception] [object] (PDOException(code: 1049): SQLSTATE[HY000] [1049] Unknown database 'laravel' at C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php:67)
+[stacktrace]
+#0 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php(67): PDO::connect('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php(44): Illuminate\\Database\\Connectors\\Connector->createPdoConnection('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#2 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\ConnectionFactory.php(185): Illuminate\\Database\\Connectors\\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->{closure:Illuminate\\Database\\Connectors\\ConnectionFactory::createPdoResolverWithHosts():180}()
+#5 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(1231): call_user_func(Object(Closure))
+#6 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(1267): Illuminate\\Database\\Connection->getPdo()
+#7 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(512): Illuminate\\Database\\Connection->getReadPdo()
+#8 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(407): Illuminate\\Database\\Connection->getPdoForSelect(true)
+#9 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(812): Illuminate\\Database\\Connection->{closure:Illuminate\\Database\\Connection::select():398}('select * from `...', Array)
+#10 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(779): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#11 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(398): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#12 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3106): Illuminate\\Database\\Connection->select('select * from `...', Array, true)
+#13 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3091): Illuminate\\Database\\Query\\Builder->runSelect()
+#14 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3676): Illuminate\\Database\\Query\\Builder->{closure:Illuminate\\Database\\Query\\Builder::get():3090}()
+#15 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3090): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#16 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\Repositories\\Queue.php(73): Illuminate\\Database\\Query\\Builder->get()
+#17 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\Services\\Queue.php(44): Leantime\\Domain\\Queue\\Repositories\\Queue->listMessageInQueue(Leantime\\Domain\\Queue\\Workers\\Workers::EMAILS)
+#18 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\register.php(16): Leantime\\Domain\\Queue\\Services\\Queue->processQueue(Leantime\\Domain\\Queue\\Workers\\Workers::EMAILS)
+#19 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Leantime\\Core\\Events\\EventDispatcher::{closure:{closure:C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\register.php:9}:16}()
+#20 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Closure->__invoke()
+#21 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#22 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#23 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Leantime\\Core\\Application), Array, Object(Closure))
+#24 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Leantime\\Core\\Application), Array, Array, NULL)
+#25 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(118): Illuminate\\Container\\Container->call(Array, Array)
+#26 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(185): Illuminate\\Console\\Scheduling\\CallbackEvent->execute(Object(Leantime\\Core\\Application))
+#27 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(134): Illuminate\\Console\\Scheduling\\Event->start(Object(Leantime\\Core\\Application))
+#28 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(77): Illuminate\\Console\\Scheduling\\Event->run(Object(Leantime\\Core\\Application))
+#29 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(194): Illuminate\\Console\\Scheduling\\CallbackEvent->run(Object(Leantime\\Core\\Application))
+#30 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(40): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->{closure:Illuminate\\Console\\Scheduling\\ScheduleRunCommand::runEvent():188}()
+#31 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Factory.php(60): Illuminate\\Console\\View\\Components\\Task->render('<fg=gray>2026-1...', Object(Closure))
+#32 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(188): Illuminate\\Console\\View\\Components\\Factory->__call('task', Array)
+#33 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(133): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->runEvent(Object(Illuminate\\Console\\Scheduling\\CallbackEvent))
+#34 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->handle(Object(Illuminate\\Console\\Scheduling\\Schedule), Object(Leantime\\Core\\Events\\EventDispatcher), Object(Illuminate\\Cache\\Repository), Object(Leantime\\Core\\Exceptions\\ExceptionHandler))
+#35 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#36 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#37 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Leantime\\Core\\Application), Array, Object(Closure))
+#38 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Leantime\\Core\\Application), Array, Array, NULL)
+#39 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#40 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Command\\Command.php(341): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Illuminate\\Console\\OutputStyle))
+#41 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Illuminate\\Console\\OutputStyle))
+#42 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(1094): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#43 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Console\\Scheduling\\ScheduleRunCommand), Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#44 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Console\\Application.php(70): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#45 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(195): Leantime\\Core\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#46 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(166): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#47 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Console\\ConsoleKernel.php(174): Illuminate\\Console\\Application->call('schedule:run', Array, Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#48 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Cron\\Services\\Cron.php(45): Leantime\\Core\\Console\\ConsoleKernel->call('schedule:run', Array, Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#49 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Cron\\Controllers\\Run.php(37): Leantime\\Domain\\Cron\\Services\\Cron->runScheduledTasks()
+#50 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(707): Leantime\\Domain\\Cron\\Controllers\\Run->{closure:Leantime\\Domain\\Cron\\Controllers\\Run::get():37}(Array)
+#51 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(418): Leantime\\Core\\Events\\EventDispatcher::{closure:Leantime\\Core\\Events\\EventDispatcher::makeListener():702}('leantime.core.h...', Array)
+#52 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(196): Leantime\\Core\\Events\\EventDispatcher::executeHandlers(Array, 'events', 'leantime.core.h...', Array)
+#53 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\DispatchesEvents.php(21): Leantime\\Core\\Events\\EventDispatcher::dispatch_event('leantime.core.h...', Array, 'leantime.core.h...')
+#54 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Http\\HttpKernel.php(182): Leantime\\Core\\Http\\HttpKernel::dispatchEvent('request_termina...', Array)
+#55 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Bootloader.php(82): Leantime\\Core\\Http\\HttpKernel->terminate(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Symfony\\Component\\HttpFoundation\\Response))
+#56 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Bootloader.php(60): Leantime\\Core\\Bootloader->handleRequest(Object(Leantime\\Core\\Http\\IncomingRequest))
+#57 C:\\laragon\\www\\dentvira\\public\\leantime\\public\\index.php(20): Leantime\\Core\\Bootloader->boot(Object(Leantime\\Core\\Application))
+#58 {main}
+"} 
+[2026-10-07 02:25:42] production.ERROR: SQLSTATE[HY000] [1049] Unknown database 'laravel' (Connection: mysql, SQL: select * from `zp_queue` where `channel` = httprequests order by `userId` asc, `projectId` asc, `thedate` asc) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 1049): SQLSTATE[HY000] [1049] Unknown database 'laravel' (Connection: mysql, SQL: select * from `zp_queue` where `channel` = httprequests order by `userId` asc, `projectId` asc, `thedate` asc) at C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:825)
+[stacktrace]
+#0 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(779): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(398): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3106): Illuminate\\Database\\Connection->select('select * from `...', Array, true)
+#3 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3091): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3676): Illuminate\\Database\\Query\\Builder->{closure:Illuminate\\Database\\Query\\Builder::get():3090}()
+#5 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3090): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\Repositories\\Queue.php(73): Illuminate\\Database\\Query\\Builder->get()
+#7 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\Services\\Queue.php(44): Leantime\\Domain\\Queue\\Repositories\\Queue->listMessageInQueue(Leantime\\Domain\\Queue\\Workers\\Workers::HTTPREQUESTS)
+#8 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\register.php(21): Leantime\\Domain\\Queue\\Services\\Queue->processQueue(Leantime\\Domain\\Queue\\Workers\\Workers::HTTPREQUESTS)
+#9 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Leantime\\Core\\Events\\EventDispatcher::{closure:{closure:C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\register.php:9}:21}()
+#10 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Closure->__invoke()
+#11 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#12 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#13 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Leantime\\Core\\Application), Array, Object(Closure))
+#14 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Leantime\\Core\\Application), Array, Array, NULL)
+#15 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(118): Illuminate\\Container\\Container->call(Array, Array)
+#16 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(185): Illuminate\\Console\\Scheduling\\CallbackEvent->execute(Object(Leantime\\Core\\Application))
+#17 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(134): Illuminate\\Console\\Scheduling\\Event->start(Object(Leantime\\Core\\Application))
+#18 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(77): Illuminate\\Console\\Scheduling\\Event->run(Object(Leantime\\Core\\Application))
+#19 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(194): Illuminate\\Console\\Scheduling\\CallbackEvent->run(Object(Leantime\\Core\\Application))
+#20 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(40): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->{closure:Illuminate\\Console\\Scheduling\\ScheduleRunCommand::runEvent():188}()
+#21 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Factory.php(60): Illuminate\\Console\\View\\Components\\Task->render('<fg=gray>2026-1...', Object(Closure))
+#22 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(188): Illuminate\\Console\\View\\Components\\Factory->__call('task', Array)
+#23 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(133): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->runEvent(Object(Illuminate\\Console\\Scheduling\\CallbackEvent))
+#24 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->handle(Object(Illuminate\\Console\\Scheduling\\Schedule), Object(Leantime\\Core\\Events\\EventDispatcher), Object(Illuminate\\Cache\\Repository), Object(Leantime\\Core\\Exceptions\\ExceptionHandler))
+#25 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#26 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#27 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Leantime\\Core\\Application), Array, Object(Closure))
+#28 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Leantime\\Core\\Application), Array, Array, NULL)
+#29 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#30 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Command\\Command.php(341): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Illuminate\\Console\\OutputStyle))
+#31 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Illuminate\\Console\\OutputStyle))
+#32 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(1094): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#33 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Console\\Scheduling\\ScheduleRunCommand), Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#34 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Console\\Application.php(70): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#35 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(195): Leantime\\Core\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#36 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(166): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#37 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Console\\ConsoleKernel.php(174): Illuminate\\Console\\Application->call('schedule:run', Array, Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#38 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Cron\\Services\\Cron.php(45): Leantime\\Core\\Console\\ConsoleKernel->call('schedule:run', Array, Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#39 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Cron\\Controllers\\Run.php(37): Leantime\\Domain\\Cron\\Services\\Cron->runScheduledTasks()
+#40 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(707): Leantime\\Domain\\Cron\\Controllers\\Run->{closure:Leantime\\Domain\\Cron\\Controllers\\Run::get():37}(Array)
+#41 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(418): Leantime\\Core\\Events\\EventDispatcher::{closure:Leantime\\Core\\Events\\EventDispatcher::makeListener():702}('leantime.core.h...', Array)
+#42 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(196): Leantime\\Core\\Events\\EventDispatcher::executeHandlers(Array, 'events', 'leantime.core.h...', Array)
+#43 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\DispatchesEvents.php(21): Leantime\\Core\\Events\\EventDispatcher::dispatch_event('leantime.core.h...', Array, 'leantime.core.h...')
+#44 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Http\\HttpKernel.php(182): Leantime\\Core\\Http\\HttpKernel::dispatchEvent('request_termina...', Array)
+#45 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Bootloader.php(82): Leantime\\Core\\Http\\HttpKernel->terminate(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Symfony\\Component\\HttpFoundation\\Response))
+#46 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Bootloader.php(60): Leantime\\Core\\Bootloader->handleRequest(Object(Leantime\\Core\\Http\\IncomingRequest))
+#47 C:\\laragon\\www\\dentvira\\public\\leantime\\public\\index.php(20): Leantime\\Core\\Bootloader->boot(Object(Leantime\\Core\\Application))
+#48 {main}
+
+[previous exception] [object] (PDOException(code: 1049): SQLSTATE[HY000] [1049] Unknown database 'laravel' at C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php:67)
+[stacktrace]
+#0 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php(67): PDO::connect('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php(44): Illuminate\\Database\\Connectors\\Connector->createPdoConnection('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#2 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\ConnectionFactory.php(185): Illuminate\\Database\\Connectors\\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->{closure:Illuminate\\Database\\Connectors\\ConnectionFactory::createPdoResolverWithHosts():180}()
+#5 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(1231): call_user_func(Object(Closure))
+#6 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(1267): Illuminate\\Database\\Connection->getPdo()
+#7 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(512): Illuminate\\Database\\Connection->getReadPdo()
+#8 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(407): Illuminate\\Database\\Connection->getPdoForSelect(true)
+#9 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(812): Illuminate\\Database\\Connection->{closure:Illuminate\\Database\\Connection::select():398}('select * from `...', Array)
+#10 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(779): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#11 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(398): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#12 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3106): Illuminate\\Database\\Connection->select('select * from `...', Array, true)
+#13 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3091): Illuminate\\Database\\Query\\Builder->runSelect()
+#14 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3676): Illuminate\\Database\\Query\\Builder->{closure:Illuminate\\Database\\Query\\Builder::get():3090}()
+#15 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3090): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#16 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\Repositories\\Queue.php(73): Illuminate\\Database\\Query\\Builder->get()
+#17 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\Services\\Queue.php(44): Leantime\\Domain\\Queue\\Repositories\\Queue->listMessageInQueue(Leantime\\Domain\\Queue\\Workers\\Workers::HTTPREQUESTS)
+#18 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\register.php(21): Leantime\\Domain\\Queue\\Services\\Queue->processQueue(Leantime\\Domain\\Queue\\Workers\\Workers::HTTPREQUESTS)
+#19 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Leantime\\Core\\Events\\EventDispatcher::{closure:{closure:C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\register.php:9}:21}()
+#20 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Closure->__invoke()
+#21 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#22 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#23 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Leantime\\Core\\Application), Array, Object(Closure))
+#24 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Leantime\\Core\\Application), Array, Array, NULL)
+#25 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(118): Illuminate\\Container\\Container->call(Array, Array)
+#26 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(185): Illuminate\\Console\\Scheduling\\CallbackEvent->execute(Object(Leantime\\Core\\Application))
+#27 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(134): Illuminate\\Console\\Scheduling\\Event->start(Object(Leantime\\Core\\Application))
+#28 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(77): Illuminate\\Console\\Scheduling\\Event->run(Object(Leantime\\Core\\Application))
+#29 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(194): Illuminate\\Console\\Scheduling\\CallbackEvent->run(Object(Leantime\\Core\\Application))
+#30 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(40): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->{closure:Illuminate\\Console\\Scheduling\\ScheduleRunCommand::runEvent():188}()
+#31 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Factory.php(60): Illuminate\\Console\\View\\Components\\Task->render('<fg=gray>2026-1...', Object(Closure))
+#32 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(188): Illuminate\\Console\\View\\Components\\Factory->__call('task', Array)
+#33 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(133): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->runEvent(Object(Illuminate\\Console\\Scheduling\\CallbackEvent))
+#34 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->handle(Object(Illuminate\\Console\\Scheduling\\Schedule), Object(Leantime\\Core\\Events\\EventDispatcher), Object(Illuminate\\Cache\\Repository), Object(Leantime\\Core\\Exceptions\\ExceptionHandler))
+#35 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#36 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#37 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Leantime\\Core\\Application), Array, Object(Closure))
+#38 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Leantime\\Core\\Application), Array, Array, NULL)
+#39 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#40 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Command\\Command.php(341): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Illuminate\\Console\\OutputStyle))
+#41 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Illuminate\\Console\\OutputStyle))
+#42 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(1094): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#43 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Console\\Scheduling\\ScheduleRunCommand), Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#44 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Console\\Application.php(70): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#45 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(195): Leantime\\Core\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#46 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(166): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#47 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Console\\ConsoleKernel.php(174): Illuminate\\Console\\Application->call('schedule:run', Array, Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#48 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Cron\\Services\\Cron.php(45): Leantime\\Core\\Console\\ConsoleKernel->call('schedule:run', Array, Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#49 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Cron\\Controllers\\Run.php(37): Leantime\\Domain\\Cron\\Services\\Cron->runScheduledTasks()
+#50 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(707): Leantime\\Domain\\Cron\\Controllers\\Run->{closure:Leantime\\Domain\\Cron\\Controllers\\Run::get():37}(Array)
+#51 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(418): Leantime\\Core\\Events\\EventDispatcher::{closure:Leantime\\Core\\Events\\EventDispatcher::makeListener():702}('leantime.core.h...', Array)
+#52 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(196): Leantime\\Core\\Events\\EventDispatcher::executeHandlers(Array, 'events', 'leantime.core.h...', Array)
+#53 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\DispatchesEvents.php(21): Leantime\\Core\\Events\\EventDispatcher::dispatch_event('leantime.core.h...', Array, 'leantime.core.h...')
+#54 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Http\\HttpKernel.php(182): Leantime\\Core\\Http\\HttpKernel::dispatchEvent('request_termina...', Array)
+#55 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Bootloader.php(82): Leantime\\Core\\Http\\HttpKernel->terminate(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Symfony\\Component\\HttpFoundation\\Response))
+#56 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Bootloader.php(60): Leantime\\Core\\Bootloader->handleRequest(Object(Leantime\\Core\\Http\\IncomingRequest))
+#57 C:\\laragon\\www\\dentvira\\public\\leantime\\public\\index.php(20): Leantime\\Core\\Bootloader->boot(Object(Leantime\\Core\\Application))
+#58 {main}
+"} 
+[2026-10-07 02:25:42] production.ERROR: SQLSTATE[HY000] [1049] Unknown database 'laravel' (Connection: mysql, SQL: select * from `zp_queue` where `channel` = default order by `userId` asc, `projectId` asc, `thedate` asc) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 1049): SQLSTATE[HY000] [1049] Unknown database 'laravel' (Connection: mysql, SQL: select * from `zp_queue` where `channel` = default order by `userId` asc, `projectId` asc, `thedate` asc) at C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:825)
+[stacktrace]
+#0 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(779): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(398): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3106): Illuminate\\Database\\Connection->select('select * from `...', Array, true)
+#3 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3091): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3676): Illuminate\\Database\\Query\\Builder->{closure:Illuminate\\Database\\Query\\Builder::get():3090}()
+#5 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3090): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\Repositories\\Queue.php(73): Illuminate\\Database\\Query\\Builder->get()
+#7 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\Services\\Queue.php(44): Leantime\\Domain\\Queue\\Repositories\\Queue->listMessageInQueue(Leantime\\Domain\\Queue\\Workers\\Workers::DEFAULT)
+#8 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\register.php(26): Leantime\\Domain\\Queue\\Services\\Queue->processQueue(Leantime\\Domain\\Queue\\Workers\\Workers::DEFAULT)
+#9 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Leantime\\Core\\Events\\EventDispatcher::{closure:{closure:C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\register.php:9}:26}()
+#10 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Closure->__invoke()
+#11 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#12 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#13 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Leantime\\Core\\Application), Array, Object(Closure))
+#14 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Leantime\\Core\\Application), Array, Array, NULL)
+#15 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(118): Illuminate\\Container\\Container->call(Array, Array)
+#16 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(185): Illuminate\\Console\\Scheduling\\CallbackEvent->execute(Object(Leantime\\Core\\Application))
+#17 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(134): Illuminate\\Console\\Scheduling\\Event->start(Object(Leantime\\Core\\Application))
+#18 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(77): Illuminate\\Console\\Scheduling\\Event->run(Object(Leantime\\Core\\Application))
+#19 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(194): Illuminate\\Console\\Scheduling\\CallbackEvent->run(Object(Leantime\\Core\\Application))
+#20 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(40): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->{closure:Illuminate\\Console\\Scheduling\\ScheduleRunCommand::runEvent():188}()
+#21 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Factory.php(60): Illuminate\\Console\\View\\Components\\Task->render('<fg=gray>2026-1...', Object(Closure))
+#22 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(188): Illuminate\\Console\\View\\Components\\Factory->__call('task', Array)
+#23 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(133): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->runEvent(Object(Illuminate\\Console\\Scheduling\\CallbackEvent))
+#24 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->handle(Object(Illuminate\\Console\\Scheduling\\Schedule), Object(Leantime\\Core\\Events\\EventDispatcher), Object(Illuminate\\Cache\\Repository), Object(Leantime\\Core\\Exceptions\\ExceptionHandler))
+#25 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#26 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#27 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Leantime\\Core\\Application), Array, Object(Closure))
+#28 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Leantime\\Core\\Application), Array, Array, NULL)
+#29 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#30 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Command\\Command.php(341): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Illuminate\\Console\\OutputStyle))
+#31 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Illuminate\\Console\\OutputStyle))
+#32 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(1094): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#33 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Console\\Scheduling\\ScheduleRunCommand), Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#34 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Console\\Application.php(70): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#35 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(195): Leantime\\Core\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#36 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(166): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#37 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Console\\ConsoleKernel.php(174): Illuminate\\Console\\Application->call('schedule:run', Array, Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#38 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Cron\\Services\\Cron.php(45): Leantime\\Core\\Console\\ConsoleKernel->call('schedule:run', Array, Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#39 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Cron\\Controllers\\Run.php(37): Leantime\\Domain\\Cron\\Services\\Cron->runScheduledTasks()
+#40 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(707): Leantime\\Domain\\Cron\\Controllers\\Run->{closure:Leantime\\Domain\\Cron\\Controllers\\Run::get():37}(Array)
+#41 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(418): Leantime\\Core\\Events\\EventDispatcher::{closure:Leantime\\Core\\Events\\EventDispatcher::makeListener():702}('leantime.core.h...', Array)
+#42 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(196): Leantime\\Core\\Events\\EventDispatcher::executeHandlers(Array, 'events', 'leantime.core.h...', Array)
+#43 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\DispatchesEvents.php(21): Leantime\\Core\\Events\\EventDispatcher::dispatch_event('leantime.core.h...', Array, 'leantime.core.h...')
+#44 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Http\\HttpKernel.php(182): Leantime\\Core\\Http\\HttpKernel::dispatchEvent('request_termina...', Array)
+#45 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Bootloader.php(82): Leantime\\Core\\Http\\HttpKernel->terminate(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Symfony\\Component\\HttpFoundation\\Response))
+#46 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Bootloader.php(60): Leantime\\Core\\Bootloader->handleRequest(Object(Leantime\\Core\\Http\\IncomingRequest))
+#47 C:\\laragon\\www\\dentvira\\public\\leantime\\public\\index.php(20): Leantime\\Core\\Bootloader->boot(Object(Leantime\\Core\\Application))
+#48 {main}
+
+[previous exception] [object] (PDOException(code: 1049): SQLSTATE[HY000] [1049] Unknown database 'laravel' at C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php:67)
+[stacktrace]
+#0 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php(67): PDO::connect('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php(44): Illuminate\\Database\\Connectors\\Connector->createPdoConnection('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#2 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\ConnectionFactory.php(185): Illuminate\\Database\\Connectors\\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->{closure:Illuminate\\Database\\Connectors\\ConnectionFactory::createPdoResolverWithHosts():180}()
+#5 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(1231): call_user_func(Object(Closure))
+#6 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(1267): Illuminate\\Database\\Connection->getPdo()
+#7 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(512): Illuminate\\Database\\Connection->getReadPdo()
+#8 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(407): Illuminate\\Database\\Connection->getPdoForSelect(true)
+#9 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(812): Illuminate\\Database\\Connection->{closure:Illuminate\\Database\\Connection::select():398}('select * from `...', Array)
+#10 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(779): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#11 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(398): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#12 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3106): Illuminate\\Database\\Connection->select('select * from `...', Array, true)
+#13 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3091): Illuminate\\Database\\Query\\Builder->runSelect()
+#14 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3676): Illuminate\\Database\\Query\\Builder->{closure:Illuminate\\Database\\Query\\Builder::get():3090}()
+#15 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3090): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#16 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\Repositories\\Queue.php(73): Illuminate\\Database\\Query\\Builder->get()
+#17 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\Services\\Queue.php(44): Leantime\\Domain\\Queue\\Repositories\\Queue->listMessageInQueue(Leantime\\Domain\\Queue\\Workers\\Workers::DEFAULT)
+#18 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\register.php(26): Leantime\\Domain\\Queue\\Services\\Queue->processQueue(Leantime\\Domain\\Queue\\Workers\\Workers::DEFAULT)
+#19 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Leantime\\Core\\Events\\EventDispatcher::{closure:{closure:C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Queue\\register.php:9}:26}()
+#20 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Closure->__invoke()
+#21 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#22 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#23 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Leantime\\Core\\Application), Array, Object(Closure))
+#24 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Leantime\\Core\\Application), Array, Array, NULL)
+#25 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(118): Illuminate\\Container\\Container->call(Array, Array)
+#26 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(185): Illuminate\\Console\\Scheduling\\CallbackEvent->execute(Object(Leantime\\Core\\Application))
+#27 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(134): Illuminate\\Console\\Scheduling\\Event->start(Object(Leantime\\Core\\Application))
+#28 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(77): Illuminate\\Console\\Scheduling\\Event->run(Object(Leantime\\Core\\Application))
+#29 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(194): Illuminate\\Console\\Scheduling\\CallbackEvent->run(Object(Leantime\\Core\\Application))
+#30 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(40): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->{closure:Illuminate\\Console\\Scheduling\\ScheduleRunCommand::runEvent():188}()
+#31 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Factory.php(60): Illuminate\\Console\\View\\Components\\Task->render('<fg=gray>2026-1...', Object(Closure))
+#32 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(188): Illuminate\\Console\\View\\Components\\Factory->__call('task', Array)
+#33 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(133): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->runEvent(Object(Illuminate\\Console\\Scheduling\\CallbackEvent))
+#34 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->handle(Object(Illuminate\\Console\\Scheduling\\Schedule), Object(Leantime\\Core\\Events\\EventDispatcher), Object(Illuminate\\Cache\\Repository), Object(Leantime\\Core\\Exceptions\\ExceptionHandler))
+#35 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#36 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#37 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Leantime\\Core\\Application), Array, Object(Closure))
+#38 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Leantime\\Core\\Application), Array, Array, NULL)
+#39 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#40 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Command\\Command.php(341): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Illuminate\\Console\\OutputStyle))
+#41 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Illuminate\\Console\\OutputStyle))
+#42 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(1094): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#43 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Console\\Scheduling\\ScheduleRunCommand), Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#44 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Console\\Application.php(70): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#45 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\symfony\\console\\Application.php(195): Leantime\\Core\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#46 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(166): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#47 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Console\\ConsoleKernel.php(174): Illuminate\\Console\\Application->call('schedule:run', Array, Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#48 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Cron\\Services\\Cron.php(45): Leantime\\Core\\Console\\ConsoleKernel->call('schedule:run', Array, Object(Symfony\\Component\\Console\\Output\\BufferedOutput))
+#49 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Cron\\Controllers\\Run.php(37): Leantime\\Domain\\Cron\\Services\\Cron->runScheduledTasks()
+#50 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(707): Leantime\\Domain\\Cron\\Controllers\\Run->{closure:Leantime\\Domain\\Cron\\Controllers\\Run::get():37}(Array)
+#51 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(418): Leantime\\Core\\Events\\EventDispatcher::{closure:Leantime\\Core\\Events\\EventDispatcher::makeListener():702}('leantime.core.h...', Array)
+#52 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\EventDispatcher.php(196): Leantime\\Core\\Events\\EventDispatcher::executeHandlers(Array, 'events', 'leantime.core.h...', Array)
+#53 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Events\\DispatchesEvents.php(21): Leantime\\Core\\Events\\EventDispatcher::dispatch_event('leantime.core.h...', Array, 'leantime.core.h...')
+#54 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Http\\HttpKernel.php(182): Leantime\\Core\\Http\\HttpKernel::dispatchEvent('request_termina...', Array)
+#55 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Bootloader.php(82): Leantime\\Core\\Http\\HttpKernel->terminate(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Symfony\\Component\\HttpFoundation\\Response))
+#56 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Bootloader.php(60): Leantime\\Core\\Bootloader->handleRequest(Object(Leantime\\Core\\Http\\IncomingRequest))
+#57 C:\\laragon\\www\\dentvira\\public\\leantime\\public\\index.php(20): Leantime\\Core\\Bootloader->boot(Object(Leantime\\Core\\Application))
+#58 {main}
+"} 
+[2026-10-07 02:26:44] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:26:44 Running [queue:emails] .................................. 9.64ms DONE
+
+  
+[2026-10-07 02:27:11] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:27:11 Running [queue:emails] .................................. 9.26ms DONE
+
+  
+[2026-10-07 02:27:45] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:27:45 Running [queue:emails] ................................. 10.10ms DONE
+
+  
+[2026-10-07 02:27:59] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:27:59 Running [queue:emails] .................................. 9.39ms DONE
+
+  
+[2026-10-07 02:28:06] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:28:06 Running [queue:emails] ................................. 10.43ms DONE
+
+  
+[2026-10-07 02:28:17] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:28:17 Running [queue:emails] .................................. 9.85ms DONE
+
+  
+[2026-10-07 02:28:26] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:28:26 Running [queue:emails] ................................. 11.58ms DONE
+
+  
+[2026-10-07 02:28:35] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:28:35 Running [queue:emails] .................................. 9.12ms DONE
+
+  
+[2026-10-07 02:28:42] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:28:42 Running [queue:emails] ................................. 11.89ms DONE
+
+  
+[2026-10-07 02:28:50] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:28:50 Running [queue:emails] .................................. 9.31ms DONE
+
+  
+[2026-10-07 02:28:55] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:28:55 Running [queue:emails] ................................. 11.49ms DONE
+
+  
+[2026-10-07 02:29:52] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:29:52 Running [queue:emails] ................................. 13.02ms DONE
+
+  
+[2026-10-07 02:30:00] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:29:59 Running [queue:emails] ................................. 10.46ms DONE
+
+  
+[2026-10-07 02:30:05] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:30:05 Running [queue:emails] ................................. 73.27ms DONE
+  2026-10-07 02:30:05 Running [queue:httprequests] ............................ 1.04ms DONE
+  2026-10-07 02:30:05 Running [queue:default] ................................. 0.91ms DONE
+
+  
+[2026-10-07 02:30:09] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:30:09 Running [queue:emails] ................................. 22.59ms DONE
+  2026-10-07 02:30:09 Running [queue:httprequests] ............................ 1.18ms DONE
+  2026-10-07 02:30:09 Running [queue:default] ................................. 1.00ms DONE
+
+  
+[2026-10-07 02:31:46] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:31:46 Running [queue:emails] ................................. 11.62ms DONE
+
+  
+[2026-10-07 02:31:52] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:31:52 Running [queue:emails] ................................. 10.22ms DONE
+
+  
+[2026-10-07 02:31:57] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:31:57 Running [queue:emails] ................................. 10.89ms DONE
+
+  
+[2026-10-07 02:36:04] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:36:04 Running [queue:emails] .................................. 9.26ms DONE
+
+  
+[2026-10-07 02:36:09] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:36:09 Running [queue:emails] ................................. 10.73ms DONE
+
+  
+[2026-10-07 02:37:43] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:37:43 Running [queue:emails] ................................. 10.22ms DONE
+
+  
+[2026-10-07 02:37:46] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:37:46 Running [queue:emails] ................................. 10.69ms DONE
+
+  
+[2026-10-07 02:38:56] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:38:56 Running [queue:emails] .................................. 9.61ms DONE
+
+  
+[2026-10-07 02:40:12] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:40:12 Running [queue:emails] .................................. 9.30ms DONE
+  2026-10-07 02:40:12 Running [queue:httprequests] ............................ 0.83ms DONE
+  2026-10-07 02:40:12 Running [queue:default] ................................. 0.71ms DONE
+
+  
+[2026-10-07 02:40:27] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:40:27 Running [queue:emails] ................................. 10.00ms DONE
+  2026-10-07 02:40:27 Running [queue:httprequests] ............................ 1.03ms DONE
+  2026-10-07 02:40:27 Running [queue:default] ................................. 0.74ms DONE
+
+  
+[2026-10-07 02:40:31] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:40:31 Running [queue:emails] .................................. 9.96ms DONE
+  2026-10-07 02:40:31 Running [queue:httprequests] ............................ 1.69ms DONE
+  2026-10-07 02:40:31 Running [queue:default] ................................. 1.00ms DONE
+
+  
+[2026-10-07 02:42:43] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:42:43 Running [queue:emails] ................................. 12.14ms DONE
+
+  
+[2026-10-07 02:42:45] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:42:45 Running [queue:emails] ................................. 10.08ms DONE
+
+  
+[2026-10-07 02:42:49] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:42:49 Running [queue:emails] ................................. 13.10ms DONE
+
+  
+[2026-10-07 02:43:23] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:43:23 Running [queue:emails] ................................. 13.34ms DONE
+
+  
+[2026-10-07 02:46:44] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:46:44 Running [queue:emails] ................................. 13.67ms DONE
+
+  
+[2026-10-07 02:47:12] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:47:12 Running [queue:emails] ................................. 11.94ms DONE
+
+  
+[2026-10-07 02:47:31] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:47:31 Running [queue:emails] ................................. 10.89ms DONE
+
+  
+[2026-10-07 02:48:55] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:48:55 Running [queue:emails] ................................. 11.40ms DONE
+
+  
+[2026-10-07 02:49:55] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:49:55 Running [queue:emails] ................................. 12.11ms DONE
+
+  
+[2026-10-07 02:50:00] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:50:00 Running [queue:emails] .................................. 9.48ms DONE
+  2026-10-07 02:50:00 Running [queue:httprequests] ............................ 1.87ms DONE
+  2026-10-07 02:50:00 Running [queue:default] ................................. 1.37ms DONE
+
+  
+[2026-10-07 02:50:21] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:50:21 Running [queue:emails] ................................. 10.22ms DONE
+  2026-10-07 02:50:21 Running [queue:httprequests] ............................ 0.90ms DONE
+  2026-10-07 02:50:21 Running [queue:default] ................................. 0.63ms DONE
+
+  
+[2026-10-07 02:51:47] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:51:47 Running [queue:emails] ................................. 19.40ms DONE
+
+  
+[2026-10-07 02:52:14] production.ERROR: mkdir(): File exists {"exception":"[object] (ErrorException(code: 0): mkdir(): File exists at C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Support\\Avatarcreator.php:80)
+[stacktrace]
+#0 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(256): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'mkdir(): File e...', 'C:\\\\laragon\\\\www\\\\...', 80)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->{closure:Illuminate\\Foundation\\Bootstrap\\HandleExceptions::forwardsTo():255}(2, 'mkdir(): File e...', 'C:\\\\laragon\\\\www\\\\...', 80)
+#2 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Support\\Avatarcreator.php(80): mkdir('C:\\\\laragon\\\\www\\\\...')
+#3 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Support\\Avatarcreator.php(72): Leantime\\Core\\Support\\Avatarcreator->saveAvatar()
+#4 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Users\\Services\\Users.php(87): Leantime\\Core\\Support\\Avatarcreator->getAvatar('\\xD9\\x85\\xD8\\xAD\\xD9\\x85\\xD8\\xAF\\xD8\\xB1\\xD8\\xB6\\xD8\\xA7 ')
+#5 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Users\\Controllers\\ProfileImage.php(37): Leantime\\Domain\\Users\\Services\\Users->getProfilePicture('1')
+#6 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(47): Leantime\\Domain\\Users\\Controllers\\ProfileImage->show(Object(Leantime\\Core\\Http\\IncomingRequest), '1')
+#7 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(266): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(Leantime\\Domain\\Users\\Controllers\\ProfileImage), 'show')
+#8 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(212): Illuminate\\Routing\\Route->runController()
+#9 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(808): Illuminate\\Routing\\Route->run()
+#10 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Routing\\Router->{closure:Illuminate\\Routing\\Router::runRouteWithinStack():807}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#11 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Auth\\Permissions\\CheckPermissions.php(38): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#12 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Auth\\Permissions\\CheckPermissions->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#13 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#14 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#15 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Leantime\\Core\\Http\\IncomingRequest))
+#16 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Illuminate\\Routing\\Route))
+#17 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Leantime\\Core\\Http\\IncomingRequest))
+#18 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Http\\HttpKernel.php(205): Illuminate\\Routing\\Router->dispatch(Object(Leantime\\Core\\Http\\IncomingRequest))
+#19 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Http\\HttpKernel.php(173): Leantime\\Core\\Http\\HttpKernel->findAndDispatchToRouter(Object(Leantime\\Core\\Http\\IncomingRequest))
+#20 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Leantime\\Core\\Http\\HttpKernel->{closure:{closure:Leantime\\Core\\Http\\HttpKernel::sendRequestThroughRouter():164}:173}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#21 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#22 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Http\\HttpKernel.php(173): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#23 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Leantime\\Core\\Http\\HttpKernel->{closure:Leantime\\Core\\Http\\HttpKernel::sendRequestThroughRouter():164}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#24 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Domain\\Projects\\Middleware\\CurrentProject.php(41): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#25 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Domain\\Projects\\Middleware\\CurrentProject->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#26 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\Localization.php(46): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#27 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\Localization->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#28 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\SetCacheHeaders.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#29 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\SetCacheHeaders->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#30 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#31 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#32 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#33 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#34 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#35 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#36 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#37 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#38 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#39 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#40 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\RequestRateLimiter.php(75): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#41 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\RequestRateLimiter->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#42 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\AuthenticateSession.php(34): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#43 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\AuthenticateSession->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#44 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\AuthCheck.php(90): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#45 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\AuthCheck->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#46 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\InitialHeaders.php(24): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#47 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\InitialHeaders->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#48 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\LoadPlugins.php(32): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#49 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\LoadPlugins->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#50 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\Updated.php(63): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#51 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\Updated->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#52 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\Installed.php(67): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#53 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\Installed->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#54 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\StartSession.php(134): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#55 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\StartSession.php(83): Leantime\\Core\\Middleware\\StartSession->handleOptimisticRequest(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Illuminate\\Session\\Store), Object(Closure))
+#56 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\StartSession->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#57 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Middleware\\TrustProxies.php(65): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#58 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Leantime\\Core\\Middleware\\TrustProxies->handle(Object(Leantime\\Core\\Http\\IncomingRequest), Object(Closure))
+#59 C:\\laragon\\www\\dentvira\\public\\leantime\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Leantime\\Core\\Http\\IncomingRequest))
+#60 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Http\\HttpKernel.php(164): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#61 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Http\\HttpKernel.php(121): Leantime\\Core\\Http\\HttpKernel->sendRequestThroughRouter(Object(Leantime\\Core\\Http\\IncomingRequest))
+#62 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Bootloader.php(79): Leantime\\Core\\Http\\HttpKernel->handle(Object(Leantime\\Core\\Http\\IncomingRequest))
+#63 C:\\laragon\\www\\dentvira\\public\\leantime\\app\\Core\\Bootloader.php(60): Leantime\\Core\\Bootloader->handleRequest(Object(Leantime\\Core\\Http\\IncomingRequest))
+#64 C:\\laragon\\www\\dentvira\\public\\leantime\\public\\index.php(20): Leantime\\Core\\Bootloader->boot(Object(Leantime\\Core\\Application))
+#65 {main}
+"} 
+[2026-10-07 02:52:16] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:52:16 Running [queue:emails] ................................. 12.27ms DONE
+
+  
+[2026-10-07 02:52:33] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:52:33 Running [queue:emails] .................................. 9.98ms DONE
+
+  
+[2026-10-07 02:53:11] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:53:11 Running [queue:emails] ................................. 10.09ms DONE
+
+  
+[2026-10-07 02:53:27] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:53:27 Running [queue:emails] ................................. 11.73ms DONE
+
+  
+[2026-10-07 02:53:53] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:53:53 Running [queue:emails] .................................. 9.27ms DONE
+
+  
+[2026-10-07 02:55:51] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:55:51 Running [queue:emails] ................................. 13.96ms DONE
+  2026-10-07 02:55:51 Running [queue:httprequests] ............................ 1.37ms DONE
+  2026-10-07 02:55:51 Running [queue:default] ................................. 1.39ms DONE
+
+  
+[2026-10-07 02:57:33] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:57:33 Running [queue:emails] ................................. 10.25ms DONE
+
+  
+[2026-10-07 02:58:43] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:58:43 Running [queue:emails] .................................. 9.56ms DONE
+
+  
+[2026-10-07 02:58:48] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:58:48 Running [queue:emails] ................................. 10.43ms DONE
+
+  
+[2026-10-07 02:59:51] production.INFO: Cron Schedule Output: 
+  2026-10-07 02:59:51 Running [queue:emails] ................................. 11.34ms DONE
+
+  
+[2026-10-07 03:01:13] production.INFO: Cron Schedule Output: 
+  2026-10-07 03:01:13 Running [queue:emails] .................................. 9.58ms DONE
+
+  
+[2026-10-07 03:04:21] production.INFO: Cron Schedule Output: 
+  2026-10-07 03:04:21 Running [queue:emails] ................................. 13.47ms DONE
+
+  
+[2026-10-07 03:05:12] production.INFO: Cron Schedule Output: 
+  2026-10-07 03:05:12 Running [queue:emails] ................................. 10.28ms DONE
+  2026-10-07 03:05:12 Running [queue:httprequests] ............................ 0.92ms DONE
+  2026-10-07 03:05:12 Running [queue:default] ................................. 0.76ms DONE
+
+  
+[2026-10-07 03:05:16] production.INFO: Cron Schedule Output: 
+  2026-10-07 03:05:16 Running [queue:emails] ................................. 10.23ms DONE
+  2026-10-07 03:05:16 Running [queue:httprequests] ............................ 0.87ms DONE
+  2026-10-07 03:05:16 Running [queue:default] ................................. 0.59ms DONE
+
+  
+[2026-10-07 03:05:19] production.INFO: Cron Schedule Output: 
+  2026-10-07 03:05:19 Running [queue:emails] .................................. 9.40ms DONE
+  2026-10-07 03:05:19 Running [queue:httprequests] ............................ 1.46ms DONE
+  2026-10-07 03:05:19 Running [queue:default] ................................. 1.98ms DONE
+
+  
+[2026-10-07 03:05:32] production.INFO: Cron Schedule Output: 
+  2026-10-07 03:05:32 Running [queue:emails] ................................. 10.87ms DONE
+  2026-10-07 03:05:32 Running [queue:httprequests] ............................ 0.95ms DONE
+  2026-10-07 03:05:32 Running [queue:default] ................................. 0.75ms DONE
+
+  
+[2026-10-07 03:07:16] production.INFO: Cron Schedule Output: 
+  2026-10-07 03:07:16 Running [queue:emails] ................................. 16.51ms DONE
+
+  
