@@ -517,7 +517,6 @@ body  .fc-header .fc-button-prev,
 body .fc-header .fc-button-next,
 body .fc-header .fc-button-today
 {
-    background:var(--accent2);
     color:var(--accent2-color);
 }
 

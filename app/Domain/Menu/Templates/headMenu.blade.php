@@ -8,7 +8,7 @@
                'onTheClock' => $onTheClock
            ])
 
-    @if ($login::userIsAtLeast("manager", true))
+    {{-- @if ($login::userIsAtLeast("manager", true))
         <li class="notificationDropdown appsLink">
         <a
             class="dropdown-toggle profileHandler newsDropDownHandler"
@@ -30,9 +30,9 @@
             </div>
         </div>
     </li>
-    @endif
+    @endif --}}
 
-    <li class="notificationDropdown">
+    {{-- <li class="notificationDropdown">
         <a
             class="dropdown-toggle profileHandler newsDropDownHandler"
             hx-get="{{ BASE_URL }}/notifications/news/get"
@@ -53,6 +53,17 @@
                 <x-global::loadingText type="text" count="3" includeHeadline="true" />
             </div>
         </div>
+    </li> --}}
+
+    <li>
+        <div class="userloggedinfo">
+
+            @include("auth::partials.loginInfo")
+
+        </div>
+
+        @dispatchEvent('afterUser')
+
     </li>
 
     <li class="notificationDropdown">
@@ -198,22 +209,11 @@
         </ul>
     </li>
 
-    <li>
-        <div class="userloggedinfo">
-
-            @include("auth::partials.loginInfo")
-
-        </div>
-
-        @dispatchEvent('afterUser')
-
-    </li>
-
     @dispatchEvent('beforeHeadMenuClose')
 
 </ul>
 
-<ul class="headmenu work-modes" style="height: 50px; float: left;">
+<ul class="headmenu work-modes" style="height: 50px; float: right;">
 
     @dispatchEvent('afterHeadMenuOpen')
     <li>

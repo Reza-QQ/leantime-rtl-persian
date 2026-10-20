@@ -353,8 +353,8 @@ a.barmenu {
 }
 
 .headmenu .dropdown-menu::after {
-    left: auto;
-    right: 45px;
+    right: auto;
+    left: 45px;
 }
 
 .headmenu .dropdown-menu.pull-right::after {
@@ -363,8 +363,8 @@ a.barmenu {
 }
 
 .leftmenu .projectselector::after {
-    left: auto;
-    right: -9px;
+    right: auto;
+    left: -9px;
     transform: rotate(90deg);
 }
 
@@ -405,6 +405,7 @@ a.barmenu {
 
 .notificationDropdown .dropdown-menu {
     right: auto;
+    min-width: 375px;
     left: -15px;
 }
 
@@ -435,8 +436,8 @@ a.barmenu {
 }
 
 .appsDropdown .dropdown-menu::after {
-    right: auto;
-    left: 30px;
+    left: auto;
+    right: 30px;
 }
 
 .leftmenu .nav-tabs.nav-stacked a span {
@@ -542,7 +543,6 @@ a.barmenu {
 
 .mainwrapper.menuclosed .headmenu {
     margin-left: 0;
-    margin-right: 98px;
 }
 
 .mainwrapper.menuclosed .leftmenu .projectselector {
@@ -606,8 +606,8 @@ a.barmenu {
 }
 
 .new-indicator {
-    right: auto;
-    left: 2px;
+    left: auto;
+    right: 2px;
 }
 
 
@@ -687,8 +687,8 @@ a.barmenu {
 }
 
 .dropdown-menu.pull-right::after {
-    right: auto;
-    left: 10px;
+    left: auto;
+    right: 10px;
 }
 
 .tabbedwidget .dropdown-menu.pull-left,
@@ -1264,8 +1264,8 @@ body .maincontent .priority-border-5 {
 }
 
 .wiki-document-wrapper:not(.editing):hover::after {
-    right: auto;
-    left: 8px;
+    left: auto;
+    right: 8px;
 }
 
 .wiki-edit-indicator {
@@ -2100,10 +2100,6 @@ body .maincontent .priority-border-5 {
 table th,
 table td {
     text-align: right;
-}
-
-.headmenu.pull-right {
-    float: right !important;
 }
 
 
@@ -3237,8 +3233,8 @@ body .maincontent .priority-border-5 {
 }
 
 .wiki-document-wrapper:not(.editing):hover::after {
-    right: auto;
-    left: 8px;
+    left: auto;
+    right: 8px;
 }
 
 .wiki-edit-indicator {
@@ -3576,8 +3572,8 @@ body .btn.btn-round-icon {
 .mainwrapper.menuclosed .headerinner .projectselector,
 .headerinner .projectselector,
 .headmenu .projectselector {
-    right: auto;
-    left: 0;
+    left: auto;
+    right: 0;
     max-width: calc(100vw - 20px);
 }
 
@@ -3971,62 +3967,4 @@ table.dataTable th {
         padding: 5px 10px;
         font-size: 11.5px;
     }
-}
-
-/* ============================================================
-   Widget Header Actions (Group By + Filter) — Move to LEFT in RTL
-   ------------------------------------------------------------
-   The wrapper `.clear` has an inline `position:absolute; right:35px;`
-   which pins the two dropdown buttons to the RIGHT edge. In RTL
-   they should be at the LEFT edge so they sit in the natural
-   "end" position and don't collide with the title on the right.
-   ============================================================ */
-
-/* 1) The wrapper — move it to the LEFT */
-#yourToDoContainer > .clear[style*="position:absolute"],
-.stickyHeader + .clearall + .widgetContent .clear[style*="position:absolute"] {
-    right: auto !important;
-    left: 35px !important;
-    top: 10px !important;
-    /* Reset any inherited float */
-    float: none !important;
-    /* Ensure it sits above other content */
-    z-index: 10;
-}
-
-/* 2) The button groups inside — flow RTL correctly */
-#yourToDoContainer .clear .btn-group.left,
-.widgetContent .clear .btn-group.left {
-    float: right !important;
-    margin-left: 0 !important;
-    margin-right: 4px !important;
-}
-
-/* 3) The dropdown toggle buttons — remove f-right float in RTL */
-#yourToDoContainer .clear .btn-group .dropdown-toggle.f-right,
-.widgetContent .clear .btn-group .dropdown-toggle.f-right {
-    float: none !important;
-    display: inline-block !important;
-}
-
-/* 4) The dropdown menus — open to the LEFT in RTL */
-#yourToDoContainer .clear .btn-group .dropdown-menu,
-.widgetContent .clear .btn-group .dropdown-menu {
-    right: auto !important;
-    left: 0 !important;
-    text-align: right;
-}
-
-/* 5) The dropdown arrow — point to the right (toward the trigger) */
-#yourToDoContainer .clear .btn-group .dropdown-menu::after,
-.widgetContent .clear .btn-group .dropdown-menu::after {
-    left: auto !important;
-    right: 10px !important;
-}
-
-/* 6) The `.clear` class inside the widget content should not
-      try to clear floats (it has absolute positioning). */
-#yourToDoContainer > .clear,
-.widgetContent .clear {
-    clear: none !important;
 }

@@ -42,7 +42,7 @@
         <div class="indeterminate"></div>
     </div>
 
-    <div class="clear" style="position:absolute; top:10px; right:35px;">
+    <div class="clear" style="position:absolute; top:10px; left:35px;">
 
         @dispatchEvent("beforeTodoWidgetGroupByDropdown")
 
