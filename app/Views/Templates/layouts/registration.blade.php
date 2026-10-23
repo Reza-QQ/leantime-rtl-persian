@@ -44,7 +44,7 @@
                 <div class="col-md-5 regLeft" style="position:relative; background:var(--element-gradient); padding:20px; height:auto;">
 
                     <h1 style="position: relative; z-index: 5; width:100%; font-size:16px;">
-                        <span style="font-size:26px">صبت نام</span><br /><br />
+                        <span style="font-size:26px">ثبت نام</span><br /><br />
                         به هیچ تنظیماتی نیاز نیست!<br />از زمان اضافه لذت ببر! 🎉<br />
                     </h1>
 
